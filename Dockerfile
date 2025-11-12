@@ -22,20 +22,20 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Copiamos e instalamos las dependencias del back
-COPY backend/requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY backend/requirements.txt ./backend/requirements.txt
+RUN pip install --no-cache-dir -r backend/requirements.txt
 
-# Copiamos todo el código del backend
-COPY backend/ .
+# Copiamos todo el código del backend (manteniendo estructura de carpeta)
+COPY backend/ ./backend/
 
 # === ¡LA MAGIA! ===
 # Copiamos los archivos compilados del front (de la Etapa 1)
-# adentro de una carpeta 'static' en nuestro backend.
-COPY --from=frontend-builder /app-front/dist ./static
+# adentro de una carpeta 'static' en el directorio backend.
+COPY --from=frontend-builder /app-front/dist ./backend/static
 
 # Exponemos el puerto que usa FastAPI
 EXPOSE 8000
 
-# El 'app:app' funciona porque copiamos 'backend/' a '.' 
-# y nuestro WORKDIR es /app
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+# Ahora usamos 'backend.app:app' porque mantenemos la estructura de paquete
+# y nuestro WORKDIR es /app (el padre de backend/)
+CMD ["uvicorn", "backend.app:app", "--host", "0.0.0.0", "--port", "8000"]

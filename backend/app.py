@@ -318,11 +318,15 @@ def health_check() -> Dict[str, Any]:
 
 # --- SERVIDOR ESTÁTICO (SERVIR FRONTEND COMPILADO) ---
 
+# Detectar la ruta base (puede ser 'static' cuando se copia a /app directamente,
+# o 'backend/static' cuando se mantiene la estructura)
+STATIC_DIR = "static" if os.path.exists("static") else os.path.join(os.path.dirname(__file__), "static")
+
 # 1. Montamos la carpeta 'assets' (que Vite genera dentro de 'dist')
-#    La ruta de Docker la puso en 'static/assets'
-if os.path.exists("static/assets"):
-    app.mount("/assets", StaticFiles(directory="static/assets"), name="static-assets")
-    logger.info("Mounted static assets from static/assets")
+assets_dir = os.path.join(STATIC_DIR, "assets")
+if os.path.exists(assets_dir):
+    app.mount("/assets", StaticFiles(directory=assets_dir), name="static-assets")
+    logger.info(f"Mounted static assets from {assets_dir}")
 
 # 2. Ruta "Catch-All" (atrapa-todo)
 #    Esto es CLAVE para que React Router (o el router que uses) funcione.
@@ -334,11 +338,11 @@ async def serve_spa(request: Request, full_path: str):
     if full_path.startswith("api/"):
         raise HTTPException(status_code=404, detail="API endpoint not found")
     
-    index_path = os.path.join("static", "index.html")
+    index_path = os.path.join(STATIC_DIR, "index.html")
     
     # Chequeo por si las moscas
     if not os.path.exists(index_path):
-        logger.warning("index.html not found in static directory")
-        return {"error": "Frontend not found - static/index.html missing"}, 404
+        logger.warning(f"index.html not found at {index_path}")
+        return {"error": "Frontend not found - index.html missing"}, 404
     
     return FileResponse(index_path)
