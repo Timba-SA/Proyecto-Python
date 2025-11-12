@@ -12,5 +12,8 @@ WORKDIR /workspace
 RUN useradd -m -u 1000 sandbox && chown -R sandbox:sandbox /workspace
 USER sandbox
 
+# Copy project code
+COPY . /workspace
+
 # Default command (will be overridden)
 CMD ["pytest"]
