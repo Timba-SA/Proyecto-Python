@@ -1,0 +1,20 @@
+{
+  "title": "Invertir dígitos de un número",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-repetitivas",
+  "difficulty": "medium",
+  "tags": [
+    "while",
+    "módulo",
+    "división",
+    "manipulación-dígitos"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Extrae el último dígito con numero % 10",
+    "Construye el invertido: invertido = invertido * 10 + digito",
+    "Elimina el último dígito: numero = numero // 10",
+    "Repite hasta que numero sea 0"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Suma secuencial hasta cero",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-repetitivas",
+  "difficulty": "easy",
+  "tags": [
+    "while",
+    "acumulador",
+    "input",
+    "ciclo-controlado"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Usa un ciclo while True para leer números infinitamente",
+    "Lee un número en cada iteración",
+    "Si el número es 0, sal del ciclo con break",
+    "Acumula la suma antes de verificar si es 0"
+  ]
+}

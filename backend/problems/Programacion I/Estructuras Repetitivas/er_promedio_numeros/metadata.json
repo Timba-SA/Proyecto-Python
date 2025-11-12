@@ -1,0 +1,20 @@
+{
+  "title": "Promedio de números",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-repetitivas",
+  "difficulty": "easy",
+  "tags": [
+    "for",
+    "acumulador",
+    "promedio",
+    "input"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Usa un acumulador para sumar todos los números",
+    "Lee 100 números con un ciclo for",
+    "Calcula el promedio: suma / cantidad",
+    "Puedes usar suma / 100 al final"
+  ]
+}

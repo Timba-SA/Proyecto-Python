@@ -1,0 +1,20 @@
+{
+  "title": "Análisis de números (pares, impares, positivos, negativos)",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-repetitivas",
+  "difficulty": "medium",
+  "tags": [
+    "for",
+    "contadores",
+    "clasificación",
+    "input"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Usa 4 contadores: pares, impares, positivos, negativos",
+    "Recorre con for i in range(100)",
+    "Usa if para clasificar cada número",
+    "El 0 se considera par y no es ni positivo ni negativo"
+  ]
+}

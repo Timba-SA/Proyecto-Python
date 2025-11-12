@@ -1,0 +1,20 @@
+{
+  "title": "Números del 0 al 100",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-repetitivas",
+  "difficulty": "easy",
+  "tags": [
+    "for",
+    "range",
+    "print",
+    "ciclos"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Usa un ciclo for con range()",
+    "range(0, 101) genera números del 0 al 100 inclusive",
+    "Imprime cada número en una línea separada",
+    "Recuerda que range() excluye el límite superior por defecto"
+  ]
+}

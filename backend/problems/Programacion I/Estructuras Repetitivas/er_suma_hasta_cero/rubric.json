@@ -1,0 +1,20 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 3,
+      "visibility": "public"
+    },
+    {
+      "name": "test_suma_varios_numeros",
+      "points": 4,
+      "visibility": "public"
+    },
+    {
+      "name": "test_solo_cero",
+      "points": 3,
+      "visibility": "hidden"
+    }
+  ],
+  "max_points": 10
+}

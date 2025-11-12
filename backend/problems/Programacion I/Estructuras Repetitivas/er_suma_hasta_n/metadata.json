@@ -1,0 +1,20 @@
+{
+  "title": "Suma de 0 hasta N",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-repetitivas",
+  "difficulty": "easy",
+  "tags": [
+    "for",
+    "range",
+    "acumulador",
+    "input"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Lee el número N del usuario",
+    "Usa range(0, N+1) o range(N+1) para ir del 0 a N",
+    "Acumula la suma en cada iteración",
+    "También puedes usar la fórmula: N * (N + 1) / 2"
+  ]
+}

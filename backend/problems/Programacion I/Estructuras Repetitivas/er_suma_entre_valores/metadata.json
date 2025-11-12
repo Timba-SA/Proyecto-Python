@@ -1,0 +1,20 @@
+{
+  "title": "Suma entre dos valores (excluyente)",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-repetitivas",
+  "difficulty": "medium",
+  "tags": [
+    "for",
+    "range",
+    "suma",
+    "acumulador"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Lee dos números del usuario",
+    "Usa range(menor+1, mayor) para excluir los extremos",
+    "Acumula la suma en una variable",
+    "Si los números son iguales o consecutivos, la suma es 0"
+  ]
+}

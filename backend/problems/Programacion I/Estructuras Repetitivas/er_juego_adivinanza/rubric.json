@@ -1,0 +1,15 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 3,
+      "visibility": "public"
+    },
+    {
+      "name": "test_cuenta_intentos",
+      "points": 7,
+      "visibility": "public"
+    }
+  ],
+  "max_points": 10
+}

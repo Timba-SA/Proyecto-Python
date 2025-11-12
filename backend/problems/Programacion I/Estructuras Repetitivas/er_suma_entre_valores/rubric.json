@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_suma_3_a_7",
+      "points": 4,
+      "visibility": "public"
+    },
+    {
+      "name": "test_numeros_consecutivos",
+      "points": 2,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_orden_inverso",
+      "points": 2,
+      "visibility": "hidden"
+    }
+  ],
+  "max_points": 10
+}

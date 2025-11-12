@@ -1,0 +1,15 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_analisis_10_numeros",
+      "points": 8,
+      "visibility": "public"
+    }
+  ],
+  "max_points": 10
+}

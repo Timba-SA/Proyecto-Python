@@ -1,0 +1,20 @@
+{
+  "title": "Contar dígitos de un número",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-repetitivas",
+  "difficulty": "medium",
+  "tags": [
+    "while",
+    "división",
+    "contador",
+    "input"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Usa un ciclo while para dividir el número por 10",
+    "Cuenta cuántas divisiones haces hasta llegar a 0",
+    "También puedes convertir a string y usar len()",
+    "Considera el caso especial del número 0 (tiene 1 dígito)"
+  ]
+}

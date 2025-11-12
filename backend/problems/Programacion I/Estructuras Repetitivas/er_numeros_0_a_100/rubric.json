@@ -1,0 +1,20 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_imprime_0_y_100",
+      "points": 4,
+      "visibility": "public"
+    },
+    {
+      "name": "test_cantidad_lineas",
+      "points": 4,
+      "visibility": "hidden"
+    }
+  ],
+  "max_points": 10
+}

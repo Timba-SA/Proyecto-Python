@@ -1,0 +1,20 @@
+{
+  "title": "Juego de adivinanza",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-repetitivas",
+  "difficulty": "medium",
+  "tags": [
+    "while",
+    "random",
+    "contador",
+    "juego"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Usa import random y random.randint(0, 9)",
+    "Crea un contador de intentos",
+    "Usa un ciclo while para seguir pidiendo números",
+    "Incrementa el contador en cada intento"
+  ]
+}
