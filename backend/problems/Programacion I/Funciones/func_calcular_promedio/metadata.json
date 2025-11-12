@@ -1,0 +1,14 @@
+{
+  "title": "Calcular Promedio de 3 Números",
+  "subject_id": "programacion-1",
+  "unit_id": "funciones",
+  "difficulty": "easy",
+  "tags": ["funciones", "promedio", "return"],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Crea la función: calcular_promedio(a, b, c)",
+    "Suma los tres números y divide entre 3",
+    "Devuelve el resultado con return"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {"name": "test_existe_funcion", "points": 2, "visibility": "public"},
+    {"name": "test_promedio_8_9_10", "points": 2, "visibility": "public"},
+    {"name": "test_promedio_5_7_9", "points": 2, "visibility": "public"},
+    {"name": "test_promedio_10_10_10", "points": 2, "visibility": "hidden"},
+    {"name": "test_devuelve_numero", "points": 2, "visibility": "hidden"}
+  ],
+  "max_points": 10
+}

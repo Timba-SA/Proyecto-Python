@@ -1,0 +1,15 @@
+{
+  "title": "Operaciones Básicas",
+  "subject_id": "programacion-1",
+  "unit_id": "funciones",
+  "difficulty": "easy",
+  "tags": ["funciones", "return", "tupla", "operaciones"],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Crea la función: operaciones_basicas(a, b)",
+    "Calcula: suma, resta, multiplicación y división",
+    "Devuelve una tupla con los 4 resultados",
+    "return (suma, resta, multiplicacion, division)"
+  ]
+}

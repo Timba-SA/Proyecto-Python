@@ -1,0 +1,15 @@
+{
+  "title": "Función Saludar Usuario",
+  "subject_id": "programacion-1",
+  "unit_id": "funciones",
+  "difficulty": "easy",
+  "tags": ["funciones", "parametros", "return", "strings"],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Define una función que reciba un parámetro: def saludar_usuario(nombre):",
+    "Usa return para devolver el saludo: return f'Hola {nombre}!'",
+    "Llama a la función con un valor y imprime el resultado",
+    "Puedes concatenar strings con + o usar f-strings"
+  ]
+}

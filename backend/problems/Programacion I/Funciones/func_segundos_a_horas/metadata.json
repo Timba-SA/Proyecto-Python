@@ -1,0 +1,15 @@
+{
+  "title": "Convertir Segundos a Horas",
+  "subject_id": "programacion-1",
+  "unit_id": "funciones",
+  "difficulty": "easy",
+  "tags": ["funciones", "conversion", "return"],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Crea la función: segundos_a_horas(segundos)",
+    "1 hora = 3600 segundos",
+    "Divide los segundos entre 3600",
+    "Devuelve el resultado con return"
+  ]
+}

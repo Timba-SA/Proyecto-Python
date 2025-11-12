@@ -1,0 +1,15 @@
+{
+  "title": "Información Personal",
+  "subject_id": "programacion-1",
+  "unit_id": "funciones",
+  "difficulty": "easy",
+  "tags": ["funciones", "multiples-parametros", "strings"],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "La función recibe 4 parámetros: nombre, apellido, edad, residencia",
+    "Usa print() para mostrar la información con el formato indicado",
+    "Puedes usar f-strings: f'Soy {nombre} {apellido}...'",
+    "La función NO debe devolver nada, solo imprimir"
+  ]
+}

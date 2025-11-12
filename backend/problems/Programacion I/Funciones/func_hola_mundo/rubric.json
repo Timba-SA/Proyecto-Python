@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 3,
+      "visibility": "public"
+    },
+    {
+      "name": "test_salida_correcta",
+      "points": 4,
+      "visibility": "public"
+    },
+    {
+      "name": "test_formato_exacto",
+      "points": 2,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_funcion_sin_parametros",
+      "points": 1,
+      "visibility": "hidden"
+    }
+  ],
+  "max_points": 10
+}

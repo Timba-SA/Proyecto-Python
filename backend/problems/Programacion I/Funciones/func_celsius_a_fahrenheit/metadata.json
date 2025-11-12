@@ -1,0 +1,14 @@
+{
+  "title": "Convertir Celsius a Fahrenheit",
+  "subject_id": "programacion-1",
+  "unit_id": "funciones",
+  "difficulty": "easy",
+  "tags": ["funciones", "conversion", "temperatura", "return"],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Crea la función: celsius_a_fahrenheit(celsius)",
+    "Fórmula: Fahrenheit = (Celsius × 9/5) + 32",
+    "Devuelve el resultado con return"
+  ]
+}

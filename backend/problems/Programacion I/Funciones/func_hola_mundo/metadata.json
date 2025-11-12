@@ -1,0 +1,19 @@
+{
+  "title": "Función Hola Mundo",
+  "subject_id": "programacion-1",
+  "unit_id": "funciones",
+  "difficulty": "easy",
+  "tags": [
+    "funciones",
+    "definicion",
+    "llamada"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Define una función con def imprimir_hola_mundo():",
+    "Dentro de la función usa print() para mostrar el mensaje",
+    "Llama a la función escribiendo imprimir_hola_mundo()",
+    "No olvides incluir if __name__ == '__main__':"
+  ]
+}

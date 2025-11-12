@@ -1,0 +1,15 @@
+{
+  "title": "Calcular IMC (Índice de Masa Corporal)",
+  "subject_id": "programacion-1",
+  "unit_id": "funciones",
+  "difficulty": "easy",
+  "tags": ["funciones", "return", "redondeo", "salud"],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Crea la función: calcular_imc(peso, altura)",
+    "Fórmula: IMC = peso / (altura²)",
+    "Usa round(valor, 2) para redondear a 2 decimales",
+    "Devuelve el resultado con return"
+  ]
+}

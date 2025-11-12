@@ -1,0 +1,9 @@
+{
+  "tests": [
+    {"name": "test_existe_funcion", "points": 2, "visibility": "public"},
+    {"name": "test_imc_70_175", "points": 3, "visibility": "public"},
+    {"name": "test_imc_85_180", "points": 2, "visibility": "hidden"},
+    {"name": "test_redondeo_correcto", "points": 3, "visibility": "hidden"}
+  ],
+  "max_points": 10
+}

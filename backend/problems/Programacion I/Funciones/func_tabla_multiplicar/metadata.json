@@ -1,0 +1,15 @@
+{
+  "title": "Tabla de Multiplicar",
+  "subject_id": "programacion-1",
+  "unit_id": "funciones",
+  "difficulty": "easy",
+  "tags": ["funciones", "bucles", "print"],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Crea la función: tabla_multiplicar(numero)",
+    "Usa un bucle for para multiplicar del 1 al 10",
+    "Imprime cada resultado con formato: 'numero x i = resultado'",
+    "No uses return, solo print()"
+  ]
+}
