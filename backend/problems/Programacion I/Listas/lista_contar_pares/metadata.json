@@ -1,0 +1,14 @@
+{
+  "title": "Contar Números Pares",
+  "subject_id": "programacion-1",
+  "unit_id": "listas",
+  "difficulty": "easy",
+  "tags": ["listas", "contador", "modulo", "pares"],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Usa el operador % para verificar si es par",
+    "Un número es par si numero % 2 == 0",
+    "Usa un contador para contar los pares"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Buscar Elemento en una Lista",
+  "subject_id": "programacion-1",
+  "unit_id": "listas",
+  "difficulty": "easy",
+  "tags": ["listas", "busqueda", "in"],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": ["Usa el operador 'in' para verificar si existe", "Imprime 'Si' o 'No' según el resultado"]
+}

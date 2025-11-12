@@ -1,0 +1,10 @@
+{
+  "title": "Concatenar Dos Listas",
+  "subject_id": "programacion-1",
+  "unit_id": "listas",
+  "difficulty": "easy",
+  "tags": ["listas", "concatenar", "extend"],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": ["Lee dos listas en líneas separadas", "Usa el operador + para concatenar", "Imprime los elementos separados por espacios"]
+}

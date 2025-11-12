@@ -1,0 +1,14 @@
+{
+  "title": "Menor Elemento de una Lista",
+  "subject_id": "programacion-1",
+  "unit_id": "listas",
+  "difficulty": "easy",
+  "tags": ["listas", "minimo", "comparacion"],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Lee los números separados por espacios",
+    "Usa la función min() de Python",
+    "O recorre la lista comparando cada elemento"
+  ]
+}

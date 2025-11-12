@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {"name": "test_existe_funcion", "points": 2, "visibility": "public"},
+    {"name": "test_concatenar_simple", "points": 3, "visibility": "public"},
+    {"name": "test_concatenar_vacia", "points": 2, "visibility": "public"},
+    {"name": "test_concatenar_un_elemento", "points": 1, "visibility": "hidden"},
+    {"name": "test_concatenar_negativos", "points": 1, "visibility": "hidden"},
+    {"name": "test_concatenar_desiguales", "points": 1, "visibility": "hidden"}
+  ],
+  "max_points": 10
+}

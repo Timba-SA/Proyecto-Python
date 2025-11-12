@@ -1,0 +1,40 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_suma_simple",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_suma_negativos",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_un_elemento",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_suma_cero",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_suma_grande",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_suma_mixta",
+      "points": 1,
+      "visibility": "hidden"
+    }
+  ],
+  "max_points": 10
+}

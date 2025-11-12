@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {"name": "test_existe_funcion", "points": 2, "visibility": "public"},
+    {"name": "test_elemento_existe", "points": 3, "visibility": "public"},
+    {"name": "test_elemento_no_existe", "points": 2, "visibility": "public"},
+    {"name": "test_buscar_primero", "points": 1, "visibility": "hidden"},
+    {"name": "test_buscar_ultimo", "points": 1, "visibility": "hidden"},
+    {"name": "test_buscar_negativo", "points": 1, "visibility": "hidden"}
+  ],
+  "max_points": 10
+}

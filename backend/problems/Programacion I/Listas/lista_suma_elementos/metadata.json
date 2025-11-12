@@ -1,0 +1,19 @@
+{
+  "title": "Suma de Elementos de una Lista",
+  "subject_id": "programacion-1",
+  "unit_id": "listas",
+  "difficulty": "easy",
+  "tags": [
+    "listas",
+    "suma",
+    "iteracion"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Lee los números separados por espacios: input().split()",
+    "Convierte cada elemento a entero usando int()",
+    "Usa un bucle for para recorrer la lista",
+    "Acumula la suma en una variable: suma += numero"
+  ]
+}

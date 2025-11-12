@@ -1,0 +1,40 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_promedio_simple",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_promedio_iguales",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_promedio_tres",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_promedio_decimales",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_promedio_negativos",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_promedio_un_elemento",
+      "points": 1,
+      "visibility": "hidden"
+    }
+  ],
+  "max_points": 10
+}

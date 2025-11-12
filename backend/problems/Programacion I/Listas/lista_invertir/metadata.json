@@ -1,0 +1,10 @@
+{
+  "title": "Invertir una Lista",
+  "subject_id": "programacion-1",
+  "unit_id": "listas",
+  "difficulty": "easy",
+  "tags": ["listas", "invertir", "reverse"],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": ["Usa el método .reverse() o slicing [::-1]", "Imprime los elementos separados por espacios"]
+}

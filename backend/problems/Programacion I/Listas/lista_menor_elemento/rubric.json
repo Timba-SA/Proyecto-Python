@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {"name": "test_existe_funcion", "points": 2, "visibility": "public"},
+    {"name": "test_menor_simple", "points": 3, "visibility": "public"},
+    {"name": "test_menor_negativos", "points": 2, "visibility": "public"},
+    {"name": "test_menor_primero", "points": 1, "visibility": "hidden"},
+    {"name": "test_menor_ultimo", "points": 1, "visibility": "hidden"},
+    {"name": "test_menor_repetido", "points": 1, "visibility": "hidden"}
+  ],
+  "max_points": 10
+}

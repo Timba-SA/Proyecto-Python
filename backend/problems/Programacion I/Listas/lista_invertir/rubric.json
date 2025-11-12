@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {"name": "test_existe_funcion", "points": 2, "visibility": "public"},
+    {"name": "test_invertir_simple", "points": 4, "visibility": "public"},
+    {"name": "test_invertir_un_elemento", "points": 2, "visibility": "public"},
+    {"name": "test_invertir_negativos", "points": 1, "visibility": "hidden"},
+    {"name": "test_invertir_pares", "points": 1, "visibility": "hidden"}
+  ],
+  "max_points": 10
+}

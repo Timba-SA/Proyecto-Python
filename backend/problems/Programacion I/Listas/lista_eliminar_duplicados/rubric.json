@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {"name": "test_existe_funcion", "points": 2, "visibility": "public"},
+    {"name": "test_eliminar_duplicados_simple", "points": 3, "visibility": "public"},
+    {"name": "test_sin_duplicados", "points": 2, "visibility": "public"},
+    {"name": "test_todos_duplicados", "points": 1, "visibility": "hidden"},
+    {"name": "test_duplicados_desordenados", "points": 1, "visibility": "hidden"},
+    {"name": "test_negativos_duplicados", "points": 1, "visibility": "hidden"}
+  ],
+  "max_points": 10
+}

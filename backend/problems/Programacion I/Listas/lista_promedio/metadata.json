@@ -1,0 +1,19 @@
+{
+  "title": "Promedio de Elementos de una Lista",
+  "subject_id": "programacion-1",
+  "unit_id": "listas",
+  "difficulty": "easy",
+  "tags": [
+    "listas",
+    "promedio",
+    "division"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Lee los números separados por espacios: input().split()",
+    "Convierte cada elemento a float() para números decimales",
+    "Calcula la suma de todos los elementos",
+    "Divide la suma entre la cantidad de elementos: len(lista)"
+  ]
+}
