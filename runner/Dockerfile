@@ -15,5 +15,8 @@ USER sandbox
 # Copy project code
 COPY . /workspace
 
+# Install dependencies
+RUN pip install -r requirements.txt
+
 # Default command (will be overridden)
 CMD ["pytest"]
