@@ -10,9 +10,9 @@
   "timeout_sec": 3.0,
   "memory_mb": 128,
   "hints": [
-    "Lee los tres números con float(input()) para manejar decimales.",
-    "Calcula el promedio sumando los tres y dividiendo entre 3: promedio = (num1 + num2 + num3) / 3",
-    "Imprime el resultado con print(promedio)",
-    "Solución: num1 = float(input()); num2 = float(input()); num3 = float(input()); promedio = (num1 + num2 + num3) / 3; print(promedio)"
+    "Lee tres números: n1 = float(input()), n2 = float(input()), n3 = float(input())",
+    "Promedio = (suma de todos) / cantidad = (n1 + n2 + n3) / 3",
+    "Calcula: promedio = (n1 + n2 + n3) / 3",
+    "Imprime: print(promedio)"
   ]
 }

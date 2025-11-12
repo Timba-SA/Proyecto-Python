@@ -10,9 +10,9 @@
   "timeout_sec": 3.0,
   "memory_mb": 128,
   "hints": [
-    "Necesitas leer el nombre con input() y guardarlo en una variable.",
-    "Usa un f-string para formatear el saludo: f'Hola {nombre}!'",
-    "El formato debe ser exactamente 'Hola {nombre}!' con H mayúscula y signo de exclamación.",
-    "Solución completa: nombre = input(); print(f'Hola {nombre}!')"
+    "Usa input() para leer el nombre: nombre = input()",
+    "Usa f-strings para crear el saludo: print(f\"Hola {nombre}!\")",
+    "También puedes usar concatenación: print(\"Hola \" + nombre + \"!\")",
+    "Solución: nombre = input(); print(f\"Hola {nombre}!\")"
   ]
 }

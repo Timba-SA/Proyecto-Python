@@ -10,9 +10,9 @@
   "timeout_sec": 3.0,
   "memory_mb": 128,
   "hints": [
-    "Necesitas leer cuatro valores con input(): nombre, apellido, edad, residencia.",
-    "Usa un f-string para formatear la oración con todos los datos.",
-    "El formato debe seguir: 'Soy {nombre} {apellido}, tengo {edad} años y vivo en {residencia}'",
-    "Solución: Lee los 4 valores con input() y usa print(f'Soy {nombre} {apellido}, tengo {edad} años y vivo en {residencia}')"
+    "Lee 3 valores: nombre = input(), edad = int(input()), ciudad = input()",
+    "Usa int(input()) para convertir la edad a número entero",
+    "Formato: f\"Hola {nombre}, tienes {edad} años y vives en {ciudad}.\"",
+    "No olvides el punto final después de ciudad"
   ]
 }

@@ -10,9 +10,9 @@
   "timeout_sec": 3.0,
   "memory_mb": 128,
   "hints": [
-    "Lee los segundos con int(input()) o float(input()).",
-    "Divide los segundos entre 3600 para convertir a horas: horas = segundos / 3600",
-    "El formato de salida debe ser: '{segundos} segundos equivalen a {horas} horas'",
-    "Solución: segundos = int(input()); horas = segundos / 3600; print(f'{segundos} segundos equivalen a {horas} horas')"
+    "Lee segundos totales: total_segundos = int(input())",
+    "Horas: total_segundos // 3600 (división entera)",
+    "Minutos: (total_segundos % 3600) // 60",
+    "Segundos restantes: total_segundos % 60"
   ]
 }

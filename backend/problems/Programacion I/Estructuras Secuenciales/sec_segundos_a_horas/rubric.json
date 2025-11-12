@@ -2,17 +2,17 @@
   "tests": [
     {
       "name": "test_existe_funcion",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
       "name": "test_3600_segundos",
-      "points": 3,
+      "points": 2,
       "visibility": "public"
     },
     {
       "name": "test_7200_segundos",
-      "points": 3,
+      "points": 2,
       "visibility": "public"
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "name": "test_0_segundos",
-      "points": 1,
+      "points": 2,
       "visibility": "hidden"
     }
   ],

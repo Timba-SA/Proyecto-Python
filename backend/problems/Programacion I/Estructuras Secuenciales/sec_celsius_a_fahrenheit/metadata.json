@@ -10,9 +10,9 @@
   "timeout_sec": 3.0,
   "memory_mb": 128,
   "hints": [
-    "Lee la temperatura en Celsius con float(input()).",
-    "Aplica la fórmula de conversión: fahrenheit = (9/5) * celsius + 32",
-    "Imprime solo el resultado numérico con print(fahrenheit)",
-    "Solución: celsius = float(input()); fahrenheit = (9/5) * celsius + 32; print(fahrenheit)"
+    "Lee la temperatura: celsius = float(input())",
+    "Fórmula de conversión: F = (C × 9/5) + 32",
+    "Calcula: fahrenheit = (celsius * 9/5) + 32",
+    "Imprime: print(fahrenheit)"
   ]
 }

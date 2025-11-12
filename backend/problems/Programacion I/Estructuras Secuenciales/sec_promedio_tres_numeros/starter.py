@@ -1,7 +1,7 @@
 def main():
-    # Ingresa tu solución aqui
-
-
+    # TODO: Lee tres números con float(input())
+    # TODO: Calcula el promedio: (n1 + n2 + n3) / 3
+    # TODO: Imprime el resultado
     pass
 
 if __name__ == "__main__":

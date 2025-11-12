@@ -2,12 +2,12 @@
   "tests": [
     {
       "name": "test_existe_funcion",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
       "name": "test_categoria_nino",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
@@ -27,12 +27,12 @@
     },
     {
       "name": "test_limite_nino_adolescente",
-      "points": 2,
+      "points": 1,
       "visibility": "hidden"
     },
     {
       "name": "test_limite_adolescente_adulto_joven",
-      "points": 2,
+      "points": 1,
       "visibility": "hidden"
     },
     {

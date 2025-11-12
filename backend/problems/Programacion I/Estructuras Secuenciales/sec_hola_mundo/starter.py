@@ -1,7 +1,5 @@
 def main():
-    # Ingresa tu solución aqui
-
-
+    # TODO: Imprime "Hola Mundo!" usando print()
     pass
 
 if __name__ == "__main__":

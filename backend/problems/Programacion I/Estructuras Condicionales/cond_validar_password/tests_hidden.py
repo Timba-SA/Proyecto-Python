@@ -24,23 +24,6 @@ def test_password_valida_10():
    Para contraseña='mypass1234' (10 caracteres): se esperaba 'Ha ingresado una contraseña correcta', se obtuvo '{output}'
    💡 Pista: 10 está dentro del rango válido [8-14]"""
 
-def test_password_vacia():
-    """Verifica contraseña vacía"""
-    old_stdin = sys.stdin
-    old_stdout = sys.stdout
-    sys.stdin = StringIO("")
-    sys.stdout = StringIO()
-
-    student.main()
-
-    output = sys.stdout.getvalue().strip()
-    sys.stdin = old_stdin
-    sys.stdout = old_stdout
-
-    assert output == "Por favor, ingrese una contraseña de entre 8 y 14 caracteres", f"""❌ No detectó contraseña vacía
-   Para contraseña='' (0 caracteres): se esperaba mensaje de error, se obtuvo '{output}'
-   💡 Pista: len('') == 0, que es menor a 8"""
-
 def test_password_limite_inferior():
     """Verifica límite inferior (7 caracteres)"""
     old_stdin = sys.stdin

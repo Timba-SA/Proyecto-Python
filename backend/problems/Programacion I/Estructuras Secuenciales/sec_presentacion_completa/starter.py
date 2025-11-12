@@ -1,7 +1,6 @@
 def main():
-    # Ingresa tu solución aqui
-
-
+    # TODO: Lee nombre (string), edad (int) y ciudad (string)
+    # TODO: Imprime presentación con formato exacto
     pass
 
 if __name__ == "__main__":

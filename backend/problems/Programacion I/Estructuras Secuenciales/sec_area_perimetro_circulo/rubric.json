@@ -7,21 +7,41 @@
     },
     {
       "name": "test_radio_5",
-      "points": 3,
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_radio_1",
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_radio_10",
-      "points": 3,
+      "points": 1,
       "visibility": "public"
     },
     {
-      "name": "test_radio_decimal",
-      "points": 2,
+      "name": "test_radio_1000",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_radio_0",
+      "points": 1,
       "visibility": "hidden"
     },
     {
-      "name": "test_radio_1",
+      "name": "test_radio_2_5_decimal",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_radio_3_7_decimal",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_precision_pi",
       "points": 1,
       "visibility": "hidden"
     }

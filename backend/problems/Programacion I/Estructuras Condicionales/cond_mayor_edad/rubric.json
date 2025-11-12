@@ -7,17 +7,22 @@
     },
     {
       "name": "test_mayor_edad_basico",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_menor_edad_basico",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
-      "name": "test_edad_limite",
-      "points": 2,
+      "name": "test_edad_limite_18",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_edad_limite_19",
+      "points": 1,
       "visibility": "public"
     },
     {
@@ -31,7 +36,17 @@
       "visibility": "hidden"
     },
     {
-      "name": "test_edad_limite_superior",
+      "name": "test_edad_cero",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_edad_17",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_edad_20",
       "points": 1,
       "visibility": "hidden"
     }

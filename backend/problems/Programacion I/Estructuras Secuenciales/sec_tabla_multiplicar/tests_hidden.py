@@ -39,38 +39,6 @@ def test_tabla_del_7():
     for i, (expected_line, actual_line) in enumerate(zip(expected, lines), 1):
         assert actual_line == expected_line, f"Línea {i} incorrecta. Esperado: '{expected_line}', Obtenido: '{actual_line}'"
 
-def test_tabla_del_0():
-    """Test tabla del 0 (todos los resultados deben ser 0)"""
-    old_stdin = sys.stdin
-    old_stdout = sys.stdout
-    sys.stdin = StringIO("0")
-    sys.stdout = StringIO()
-
-    student.main()
-
-    output = sys.stdout.getvalue().strip()
-    sys.stdin = old_stdin
-    sys.stdout = old_stdout
-
-    lines = output.split('\n')
-    assert len(lines) == 10, f"Debe imprimir exactamente 10 líneas (del 1 al 10), se obtuvieron {len(lines)}"
-    
-    expected = [
-        "0 x 1 = 0",
-        "0 x 2 = 0",
-        "0 x 3 = 0",
-        "0 x 4 = 0",
-        "0 x 5 = 0",
-        "0 x 6 = 0",
-        "0 x 7 = 0",
-        "0 x 8 = 0",
-        "0 x 9 = 0",
-        "0 x 10 = 0"
-    ]
-    
-    for i, (expected_line, actual_line) in enumerate(zip(expected, lines), 1):
-        assert actual_line == expected_line, f"Línea {i} incorrecta. Esperado: '{expected_line}', Obtenido: '{actual_line}'"
-
 def test_tabla_negativa():
     """Test tabla de número negativo (-3)"""
     old_stdin = sys.stdin

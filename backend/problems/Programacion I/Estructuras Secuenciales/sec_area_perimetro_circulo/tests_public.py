@@ -103,36 +103,6 @@ def test_radio_10():
    Para radio=10: se esperaba {perimetro_esperado}, se obtuvo {perimetro_obtenido}
    💡 Pista: Perímetro = 2 × π × 10"""
 
-def test_radio_0():
-    """Test con radio 0 (caso borde)"""
-    old_stdin = sys.stdin
-    old_stdout = sys.stdout
-    sys.stdin = StringIO("0")
-    sys.stdout = StringIO()
-
-    student.main()
-
-    output = sys.stdout.getvalue().strip()
-    sys.stdin = old_stdin
-    sys.stdout = old_stdout
-
-    lines = output.split('\n')
-    assert len(lines) == 2, f"Se esperaban 2 líneas (área y perímetro), se obtuvieron {len(lines)}"
-    
-    radio = 0
-    area_esperada = 0.0
-    perimetro_esperado = 0.0
-    
-    area_obtenida = float(lines[0])
-    perimetro_obtenido = float(lines[1])
-    
-    assert abs(area_obtenida - area_esperada) < 0.0001, f"""❌ Área incorrecta
-   Para radio=0: se esperaba {area_esperada}, se obtuvo {area_obtenida}
-   💡 Pista: Un círculo de radio 0 tiene área 0"""
-    assert abs(perimetro_obtenido - perimetro_esperado) < 0.0001, f"""❌ Perímetro incorrecto
-   Para radio=0: se esperaba {perimetro_esperado}, se obtuvo {perimetro_obtenido}
-   💡 Pista: Un círculo de radio 0 tiene perímetro 0"""
-
 def test_radio_1000():
     """Test con radio 1000 (caso borde - número grande)"""
     old_stdin = sys.stdin

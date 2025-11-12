@@ -1,7 +1,7 @@
 def main():
-    # Ingresa tu solución aqui
-
-
+    # TODO: Lee el total de segundos
+    # TODO: Calcula horas, minutos y segundos
+    # TODO: Usa // (división entera) y % (módulo)
     pass
 
 if __name__ == "__main__":

@@ -7,31 +7,46 @@
     },
     {
       "name": "test_mayor_primero",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_mayor_segundo",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_iguales",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
-      "name": "test_negativos",
+      "name": "test_negativos_1",
       "points": 1,
       "visibility": "hidden"
     },
     {
-      "name": "test_decimales",
+      "name": "test_negativos_2",
       "points": 1,
       "visibility": "hidden"
     },
     {
-      "name": "test_cero",
+      "name": "test_decimales_1",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_decimales_2",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_cero_1",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_cero_2",
       "points": 1,
       "visibility": "hidden"
     }

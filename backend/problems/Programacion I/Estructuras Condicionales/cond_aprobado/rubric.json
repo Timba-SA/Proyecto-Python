@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "test_existe_funcion",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
@@ -12,12 +12,12 @@
     },
     {
       "name": "test_nota_desaprobada",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_nota_limite_aprobado",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
@@ -31,7 +31,12 @@
       "visibility": "hidden"
     },
     {
-      "name": "test_nota_decimal",
+      "name": "test_nota_decimal_aprobado",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_nota_decimal_desaprobado",
       "points": 1,
       "visibility": "hidden"
     }

@@ -12,26 +12,36 @@
     },
     {
       "name": "test_no_termina_vocal",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_termina_vocal_mayuscula",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
-      "name": "test_todas_vocales_minusculas",
+      "name": "test_vocal_o_minuscula",
       "points": 1,
       "visibility": "hidden"
     },
     {
-      "name": "test_todas_vocales_mayusculas",
+      "name": "test_vocal_i_minuscula",
       "points": 1,
       "visibility": "hidden"
     },
     {
-      "name": "test_consonantes_finales",
+      "name": "test_vocal_A_mayuscula",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_consonante_r",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_consonante_l",
       "points": 1,
       "visibility": "hidden"
     }

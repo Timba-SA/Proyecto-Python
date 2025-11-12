@@ -1,5 +1,7 @@
 def main():
+    """Valida que la contraseña tenga entre 8 y 14 caracteres"""
     password = input()
+    
     if 8 <= len(password) <= 14:
         print("Ha ingresado una contraseña correcta")
     else:

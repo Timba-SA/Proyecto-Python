@@ -11,9 +11,9 @@
   "timeout_sec": 3.0,
   "memory_mb": 128,
   "hints": [
-    "Lee la edad con int(input()). CUIDADO: la condición es 'edad >= 19', NO 'edad > 18'. Una persona de 18 años NO es mayor de edad según este ejercicio (debe tener 19 años o más).",
-    "Usa if edad >= 19 para verificar. Si la edad es 18 o menos, debe ir al caso 'Es menor de edad'. Los tests verifican este límite.",
-    "El mensaje para el caso false es 'Es menor de edad', NO 'No es mayor de edad'. Presta atención a la redacción exacta que piden los tests.",
-    "Solución: edad=int(input()), if edad >= 19: print('Es mayor de edad') else: print('Es menor de edad'). Respeta mayúsculas."
+    "Lee la edad: edad = int(input())",
+    "Usa if-else: if edad >= 18: ... else: ...",
+    "Mayor de edad es >= 18 años (18 incluido)",
+    "Solución: if edad >= 18: print(\"Mayor de edad\") else: print(\"Menor de edad\")"
   ]
 }

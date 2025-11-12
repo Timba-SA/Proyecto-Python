@@ -7,12 +7,12 @@
     },
     {
       "name": "test_password_valida_8",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_password_valida_14",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
@@ -31,12 +31,22 @@
       "visibility": "hidden"
     },
     {
-      "name": "test_password_vacia",
+      "name": "test_password_limite_inferior",
       "points": 1,
       "visibility": "hidden"
     },
     {
-      "name": "test_password_limite_inferior",
+      "name": "test_password_con_espacios",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_password_con_caracteres_especiales",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_password_limite_superior",
       "points": 1,
       "visibility": "hidden"
     }

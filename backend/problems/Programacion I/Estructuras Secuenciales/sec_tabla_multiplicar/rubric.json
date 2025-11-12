@@ -2,21 +2,36 @@
   "tests": [
     {
       "name": "test_existe_funcion",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_tabla_del_5",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_tabla_del_1",
       "points": 1,
       "visibility": "public"
     },
     {
-      "name": "test_tabla_5",
-      "points": 4,
+      "name": "test_tabla_del_10",
+      "points": 1,
       "visibility": "public"
     },
     {
-      "name": "test_tabla_3",
-      "points": 3,
+      "name": "test_tabla_del_0",
+      "points": 1,
       "visibility": "public"
     },
     {
-      "name": "test_tabla_7",
+      "name": "test_tabla_del_7",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_tabla_negativa",
       "points": 1,
       "visibility": "hidden"
     },

@@ -10,9 +10,9 @@
   "timeout_sec": 3.0,
   "memory_mb": 128,
   "hints": [
-    "Lee altura y peso con float(input()) para manejar decimales.",
-    "Calcula el IMC con la fórmula: imc = peso / (altura ** 2)",
-    "Muestra el resultado con 2 decimales usando: print(f'{imc:.2f}')",
-    "Solución: altura = float(input()); peso = float(input()); imc = peso / altura ** 2; print(f'{imc:.2f}')"
+    "Lee dos valores: peso = float(input()), altura = float(input())",
+    "Fórmula del IMC: peso / altura²",
+    "Para elevar al cuadrado usa: altura ** 2",
+    "Solución: imc = peso / (altura ** 2); print(imc)"
   ]
 }

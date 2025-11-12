@@ -10,9 +10,9 @@
   "timeout_sec": 3.0,
   "memory_mb": 128,
   "hints": [
-    "Lee dos números con int(input()) y guárdalos en variables num1 y num2.",
-    "Calcula: suma = num1 + num2, resta = num1 - num2, multiplicacion = num1 * num2, division = num1 / num2",
-    "Imprime cada resultado en una línea separada: print(suma), print(resta), etc.",
-    "La división siempre debe usar / (no //) para obtener resultado decimal."
+    "Lee dos números: a = float(input()), b = float(input())",
+    "Operadores: + (suma), - (resta), * (multiplicación), / (división)",
+    "Imprime cada resultado en una línea: print(a + b), print(a - b), etc.",
+    "Orden: suma, resta, multiplicación, división"
   ]
 }

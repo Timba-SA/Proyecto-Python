@@ -2,17 +2,17 @@
   "tests": [
     {
       "name": "test_existe_funcion",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
       "name": "test_0_celsius",
-      "points": 3,
+      "points": 2,
       "visibility": "public"
     },
     {
       "name": "test_100_celsius",
-      "points": 3,
+      "points": 2,
       "visibility": "public"
     },
     {
@@ -22,6 +22,11 @@
     },
     {
       "name": "test_negativo",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_temperatura_corporal",
       "points": 1,
       "visibility": "hidden"
     }

@@ -1,13 +1,11 @@
-def categoria_edad(edad):
-    """
-    Retorna la categoría de edad según el rango.
-
-    Rangos:
-    - edad < 12: "Niño/a"
-    - 12 ≤ edad < 18: "Adolescente"
-    - 18 ≤ edad < 30: "Adulto/a joven"
-    - edad ≥ 30: "Adulto/a"
-    """
-    # TODO: Implementa tu código aquí
-
+def main():
+    # TODO: Lee la edad
+    # TODO: Usa if-elif-else para clasificar:
+    #       < 13: Niño
+    #       13-17: Adolescente
+    #       18-59: Adulto
+    #       >= 60: Adulto mayor
     pass
+
+if __name__ == "__main__":
+    main()

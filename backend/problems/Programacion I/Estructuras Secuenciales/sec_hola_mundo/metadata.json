@@ -11,9 +11,9 @@
   "timeout_sec": 3.0,
   "memory_mb": 128,
   "hints": [
-    "Debes usar la función print() para mostrar el mensaje en pantalla.",
-    "El mensaje debe ser exactamente 'Hola Mundo!' con H mayúscula y signo de exclamación al final.",
-    "Usa print('Hola Mundo!') dentro de la función main().",
-    "Solución completa: def main(): print('Hola Mundo!'). No necesitas leer nada con input()."
+    "Necesitas usar la función print() para mostrar texto en pantalla",
+    "El texto debe estar entre comillas: print(\"texto aquí\")",
+    "El mensaje exacto es: Hola Mundo! (con H y M mayúsculas y signo de exclamación)",
+    "Solución completa: print(\"Hola Mundo!\")"
   ]
 }

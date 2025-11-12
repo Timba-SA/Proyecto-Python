@@ -22,7 +22,7 @@
     },
     {
       "name": "test_opcion_invalida",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
@@ -42,12 +42,12 @@
     },
     {
       "name": "test_opcion_cero",
-      "points": 0.5,
+      "points": 1,
       "visibility": "hidden"
     },
     {
       "name": "test_opcion_negativa",
-      "points": 0.5,
+      "points": 1,
       "visibility": "hidden"
     }
   ],

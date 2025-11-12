@@ -10,9 +10,9 @@
   "timeout_sec": 3.0,
   "memory_mb": 128,
   "hints": [
-    "Lee el número con int(input()) y calcula cada multiplicación por separado (sin bucles).",
-    "Calcula resultado1 = numero * 1, resultado2 = numero * 2, ..., resultado10 = numero * 10",
-    "Imprime cada resultado con el formato: f'{numero} x {multiplicador} = {resultado}'",
-    "Necesitarás 10 líneas de print(), una para cada multiplicación del 1 al 10."
+    "Lee el número: numero = int(input())",
+    "Imprime 10 líneas con f-strings: print(f\"{numero} x 1 = {numero * 1}\")",
+    "Repite para multiplicadores del 2 al 10",
+    "Sin usar loops, necesitas 10 líneas de print()"
   ]
 }
