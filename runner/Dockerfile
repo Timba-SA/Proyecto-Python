@@ -8,6 +8,12 @@ RUN pip install --no-cache-dir pytest==8.3.3
 RUN mkdir /workspace
 WORKDIR /workspace
 
+# Copy project code first (as root, before switching user)
+COPY . /workspace
+
+# Install dependencies from requirements.txt (as root, with full permissions)
+RUN pip install -r requirements.txt
+
 # Non-root user for security
 RUN useradd -m -u 1000 sandbox && chown -R sandbox:sandbox /workspace
 USER sandbox
