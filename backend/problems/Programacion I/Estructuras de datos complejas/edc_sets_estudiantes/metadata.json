@@ -1,0 +1,21 @@
+{
+  "title": "Operaciones con sets de estudiantes",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-datos-complejas",
+  "difficulty": "medium",
+  "tags": [
+    "sets",
+    "operaciones-conjuntos",
+    "intersección",
+    "diferencia-simétrica",
+    "unión"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Usa & o .intersection() para los que aprobaron ambos",
+    "Usa ^ o .symmetric_difference() para los que aprobaron solo uno",
+    "Usa | o .union() para todos los que aprobaron al menos uno",
+    "No es necesario leer input, usar sets predefinidos"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_interseccion",
+      "points": 3,
+      "visibility": "public"
+    },
+    {
+      "name": "test_diferencia_simetrica",
+      "points": 3,
+      "visibility": "public"
+    },
+    {
+      "name": "test_union",
+      "points": 2,
+      "visibility": "hidden"
+    }
+  ],
+  "max_points": 10
+}

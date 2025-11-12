@@ -1,0 +1,19 @@
+{
+  "title": "Agregar frutas al diccionario",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-datos-complejas",
+  "difficulty": "easy",
+  "tags": [
+    "diccionarios",
+    "agregar-elementos",
+    "estructuras-datos"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Usa diccionario['clave'] = valor para agregar elementos",
+    "O usa el método .update() para agregar múltiples elementos",
+    "Imprime el diccionario completo al final",
+    "El formato de salida debe ser exacto"
+  ]
+}

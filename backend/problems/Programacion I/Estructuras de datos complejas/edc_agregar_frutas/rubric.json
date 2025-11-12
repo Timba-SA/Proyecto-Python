@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_diccionario_inicial",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_frutas_agregadas",
+      "points": 3,
+      "visibility": "public"
+    },
+    {
+      "name": "test_precios_correctos",
+      "points": 3,
+      "visibility": "hidden"
+    }
+  ],
+  "max_points": 10
+}

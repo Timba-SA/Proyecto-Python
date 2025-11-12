@@ -1,0 +1,20 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_es_lista",
+      "points": 3,
+      "visibility": "public"
+    },
+    {
+      "name": "test_contiene_frutas",
+      "points": 5,
+      "visibility": "hidden"
+    }
+  ],
+  "max_points": 10
+}

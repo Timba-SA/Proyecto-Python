@@ -34,6 +34,12 @@
           "name": "Funciones en Python",
           "description": "Definición, parámetros, return, scope",
           "order": 5
+        },
+        {
+          "id": "estructuras-datos-complejas",
+          "name": "Estructuras de datos complejas",
+          "description": "Diccionarios, conjuntos, tuplas, estructuras combinadas",
+          "order": 6
         }
       ]
     },

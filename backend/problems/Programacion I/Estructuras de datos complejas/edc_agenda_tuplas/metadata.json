@@ -1,0 +1,21 @@
+{
+  "title": "Agenda con tuplas como claves",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-datos-complejas",
+  "difficulty": "medium",
+  "tags": [
+    "diccionarios",
+    "tuplas",
+    "claves-compuestas",
+    "búsqueda"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Las claves son tuplas (día, hora)",
+    "Los valores son strings con el evento",
+    "Lee día y hora por separado",
+    "Busca usando la tupla (día, hora) como clave",
+    "Imprime el evento o mensaje si no existe"
+  ]
+}

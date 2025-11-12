@@ -1,0 +1,19 @@
+{
+  "title": "Actualizar precios de frutas",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-datos-complejas",
+  "difficulty": "easy",
+  "tags": [
+    "diccionarios",
+    "actualizar-valores",
+    "estructuras-datos"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Usa diccionario['clave'] = nuevo_valor para actualizar",
+    "Parte del diccionario del ejercicio anterior",
+    "Actualiza Banana, Manzana y Melón",
+    "Imprime el diccionario actualizado"
+  ]
+}

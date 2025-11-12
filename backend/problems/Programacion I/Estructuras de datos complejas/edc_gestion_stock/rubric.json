@@ -1,0 +1,20 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_actualizar_existente",
+      "points": 4,
+      "visibility": "public"
+    },
+    {
+      "name": "test_agregar_nuevo",
+      "points": 4,
+      "visibility": "hidden"
+    }
+  ],
+  "max_points": 10
+}

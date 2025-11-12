@@ -1,0 +1,20 @@
+{
+  "title": "Agenda telefónica",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-datos-complejas",
+  "difficulty": "medium",
+  "tags": [
+    "diccionarios",
+    "input",
+    "bucles",
+    "búsqueda"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Crea un diccionario vacío para contactos",
+    "Usa un bucle for con range(5) para cargar 5 contactos",
+    "Guarda nombre como clave y teléfono como valor",
+    "Usa .get() o 'in' para buscar un contacto"
+  ]
+}

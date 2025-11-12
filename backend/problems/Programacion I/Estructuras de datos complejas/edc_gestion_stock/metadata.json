@@ -1,0 +1,21 @@
+{
+  "title": "Gestión de inventario (stock)",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-datos-complejas",
+  "difficulty": "medium",
+  "tags": [
+    "diccionarios",
+    "crud",
+    "actualización",
+    "búsqueda"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Crea un diccionario con productos y stock inicial",
+    "Lee el nombre del producto a consultar/modificar",
+    "Lee la cantidad a agregar",
+    "Si existe, suma al stock; si no, crea nuevo producto",
+    "Imprime el stock actualizado"
+  ]
+}

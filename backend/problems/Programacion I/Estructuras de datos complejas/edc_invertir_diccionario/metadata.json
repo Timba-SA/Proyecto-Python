@@ -1,0 +1,20 @@
+{
+  "title": "Invertir diccionario (países y capitales)",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-datos-complejas",
+  "difficulty": "medium",
+  "tags": [
+    "diccionarios",
+    "inversión",
+    "transformación",
+    "iteración"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Crea un nuevo diccionario vacío",
+    "Recorre el diccionario original con .items()",
+    "En el nuevo diccionario, las capitales son claves y países valores",
+    "Invierte: nuevo[valor_original] = clave_original"
+  ]
+}

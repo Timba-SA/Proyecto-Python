@@ -1,0 +1,20 @@
+{
+  "title": "Promedio de notas por alumno",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-datos-complejas",
+  "difficulty": "medium",
+  "tags": [
+    "diccionarios",
+    "tuplas",
+    "promedios",
+    "input"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Lee 3 nombres de alumnos",
+    "Para cada alumno, lee 3 notas y crea una tupla",
+    "Calcula el promedio sumando las notas y dividiendo por 3",
+    "Imprime nombre y promedio de cada alumno"
+  ]
+}

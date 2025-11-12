@@ -1,0 +1,20 @@
+{
+  "title": "Palabras únicas y conteo",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-datos-complejas",
+  "difficulty": "medium",
+  "tags": [
+    "sets",
+    "diccionarios",
+    "strings",
+    "conteo"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Usa .split() para separar las palabras",
+    "Usa set() para obtener palabras únicas",
+    "Usa un bucle para contar cada palabra en un diccionario",
+    "Imprime el set y el diccionario por separado"
+  ]
+}

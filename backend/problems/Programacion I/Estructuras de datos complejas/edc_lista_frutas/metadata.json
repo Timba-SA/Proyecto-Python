@@ -1,0 +1,20 @@
+{
+  "title": "Extraer claves del diccionario",
+  "subject_id": "programacion-1",
+  "unit_id": "estructuras-datos-complejas",
+  "difficulty": "easy",
+  "tags": [
+    "diccionarios",
+    "listas",
+    "keys",
+    "conversión"
+  ],
+  "timeout_sec": 3.0,
+  "memory_mb": 128,
+  "hints": [
+    "Usa el método .keys() para obtener las claves",
+    "Convierte las claves a lista con list()",
+    "Las claves son los nombres de las frutas",
+    "Imprime la lista resultante"
+  ]
+}
