@@ -1,0 +1,60 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_existe_funcion_contar_bloques",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_contar_bloques_es_recursiva",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_contar_bloques_1",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_contar_bloques_2",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_contar_bloques_4",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_salida_completa",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_contar_bloques_5",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_contar_bloques_10",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_salida_completa_1",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_salida_completa_5",
+      "points": 1,
+      "visibility": "hidden"
+    }
+  ],
+  "max_points": 16
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Serie de Fibonacci recursiva",
+  "subject_id": "programacion-1",
+  "unit_id": "recursividad",
+  "difficulty": "medium",
+  "tags": [
+    "recursividad",
+    "fibonacci",
+    "series"
+  ],
+  "timeout_sec": 5.0,
+  "memory_mb": 128,
+  "hints": [
+    "El caso base: fibonacci(0) = 0 y fibonacci(1) = 1",
+    "El caso recursivo: fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)",
+    "Para mostrar la serie, usa un bucle desde 0 hasta n",
+    "La serie comienza: 0, 1, 1, 2, 3, 5, 8, 13, 21..."
+  ]
+}

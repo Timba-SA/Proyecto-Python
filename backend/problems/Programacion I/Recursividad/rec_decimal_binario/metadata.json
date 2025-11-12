@@ -1,0 +1,19 @@
+{
+  "title": "Conversión decimal a binario recursiva",
+  "subject_id": "programacion-1",
+  "unit_id": "recursividad",
+  "difficulty": "medium",
+  "tags": [
+    "recursividad",
+    "binario",
+    "conversion"
+  ],
+  "timeout_sec": 5.0,
+  "memory_mb": 128,
+  "hints": [
+    "El caso base es cuando n == 0, devuelve cadena vacía ''",
+    "Divide el número entre 2 y guarda el resto (n % 2)",
+    "El caso recursivo: decimal_a_binario(n // 2) + str(n % 2)",
+    "Los restos se leen de abajo hacia arriba formando el binario"
+  ]
+}

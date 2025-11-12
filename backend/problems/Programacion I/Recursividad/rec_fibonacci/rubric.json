@@ -1,0 +1,65 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_existe_funcion_fibonacci",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_fibonacci_es_recursiva",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_fibonacci_0",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_fibonacci_1",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_fibonacci_5",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_salida_completa_n5",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_fibonacci_7",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_fibonacci_10",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_salida_completa_n0",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_salida_completa_n7",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_salida_completa_n10",
+      "points": 1,
+      "visibility": "hidden"
+    }
+  ],
+  "max_points": 16
+}

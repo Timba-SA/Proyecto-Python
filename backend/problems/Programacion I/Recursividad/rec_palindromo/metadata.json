@@ -1,0 +1,19 @@
+{
+  "title": "Verificar palíndromo recursivamente",
+  "subject_id": "programacion-1",
+  "unit_id": "recursividad",
+  "difficulty": "medium",
+  "tags": [
+    "recursividad",
+    "strings",
+    "palindromo"
+  ],
+  "timeout_sec": 5.0,
+  "memory_mb": 128,
+  "hints": [
+    "Caso base 1: Si la palabra tiene 0 o 1 caracteres, es palíndromo",
+    "Caso base 2: Si primer y último carácter son diferentes, no es palíndromo",
+    "Caso recursivo: Compara primer y último, luego verifica el resto",
+    "Usa palabra[0] y palabra[-1] para comparar extremos"
+  ]
+}

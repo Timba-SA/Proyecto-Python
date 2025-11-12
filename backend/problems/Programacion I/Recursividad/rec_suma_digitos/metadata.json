@@ -1,0 +1,19 @@
+{
+  "title": "Suma de dígitos recursiva",
+  "subject_id": "programacion-1",
+  "unit_id": "recursividad",
+  "difficulty": "medium",
+  "tags": [
+    "recursividad",
+    "matematica",
+    "digitos"
+  ],
+  "timeout_sec": 5.0,
+  "memory_mb": 128,
+  "hints": [
+    "Caso base: cuando n == 0, la suma es 0",
+    "Usa n % 10 para obtener el último dígito",
+    "Usa n // 10 para obtener el número sin el último dígito",
+    "Caso recursivo: (n % 10) + suma_digitos(n // 10)"
+  ]
+}

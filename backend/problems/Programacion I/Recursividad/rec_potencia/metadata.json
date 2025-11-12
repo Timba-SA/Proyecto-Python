@@ -1,0 +1,19 @@
+{
+  "title": "Potencia recursiva",
+  "subject_id": "programacion-1",
+  "unit_id": "recursividad",
+  "difficulty": "medium",
+  "tags": [
+    "recursividad",
+    "potencia",
+    "matematica"
+  ],
+  "timeout_sec": 5.0,
+  "memory_mb": 128,
+  "hints": [
+    "El caso base es cuando exponente == 0, devuelve 1",
+    "El caso recursivo es base * potencia(base, exponente - 1)",
+    "Fórmula: n^m = n × n^(m-1)",
+    "Cualquier número elevado a 0 es 1"
+  ]
+}

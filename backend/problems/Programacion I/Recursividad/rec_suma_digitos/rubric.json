@@ -1,0 +1,65 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_existe_funcion_suma_digitos",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_suma_digitos_es_recursiva",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_suma_digitos_0",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_suma_digitos_9",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_suma_digitos_1234",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_suma_digitos_305",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_salida_completa",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_suma_digitos_9999",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_suma_digitos_100",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_salida_completa_9",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_salida_completa_305",
+      "points": 1,
+      "visibility": "hidden"
+    }
+  ],
+  "max_points": 17
+}

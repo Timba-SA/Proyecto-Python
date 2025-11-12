@@ -1,0 +1,70 @@
+{
+  "tests": [
+    {
+      "name": "test_existe_funcion",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_existe_funcion_es_palindromo",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_es_palindromo_recursiva",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_palindromo_oso",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_palindromo_neuquen",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_no_palindromo_hola",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_salida_completa_palindromo",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_salida_completa_no_palindromo",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_palindromo_reconocer",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_palindromo_anilina",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_palindromo_un_caracter",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_no_palindromo_python",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_salida_mayusculas",
+      "points": 1,
+      "visibility": "hidden"
+    }
+  ],
+  "max_points": 19
+}

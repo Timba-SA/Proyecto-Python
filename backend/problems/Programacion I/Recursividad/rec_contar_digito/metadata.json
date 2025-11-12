@@ -1,0 +1,19 @@
+{
+  "title": "Contar apariciones de un dígito recursivamente",
+  "subject_id": "programacion-1",
+  "unit_id": "recursividad",
+  "difficulty": "medium",
+  "tags": [
+    "recursividad",
+    "digitos",
+    "conteo"
+  ],
+  "timeout_sec": 5.0,
+  "memory_mb": 128,
+  "hints": [
+    "Caso base: cuando numero == 0, retorna 0",
+    "Obtén el último dígito con numero % 10",
+    "Si el último dígito coincide con el buscado, suma 1",
+    "Caso recursivo: contar_digito(numero // 10, digito) + (1 si coincide, 0 si no)"
+  ]
+}

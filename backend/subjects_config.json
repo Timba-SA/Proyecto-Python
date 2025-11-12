@@ -40,6 +40,12 @@
           "name": "Estructuras de datos complejas",
           "description": "Diccionarios, conjuntos, tuplas, estructuras combinadas",
           "order": 6
+        },
+        {
+          "id": "recursividad",
+          "name": "Recursividad",
+          "description": "Funciones recursivas, casos base, factorial, fibonacci, conversiones",
+          "order": 7
         }
       ]
     },

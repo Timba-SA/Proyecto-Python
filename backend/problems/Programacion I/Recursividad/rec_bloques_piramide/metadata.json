@@ -1,0 +1,19 @@
+{
+  "title": "Contar bloques de pirámide recursivamente",
+  "subject_id": "programacion-1",
+  "unit_id": "recursividad",
+  "difficulty": "medium",
+  "tags": [
+    "recursividad",
+    "matematica",
+    "suma"
+  ],
+  "timeout_sec": 5.0,
+  "memory_mb": 128,
+  "hints": [
+    "Caso base: cuando n == 0, no hay bloques (retorna 0)",
+    "Caso base alternativo: cuando n == 1, hay 1 bloque",
+    "Caso recursivo: n + contar_bloques(n - 1)",
+    "Es la suma de números desde 1 hasta n: 1 + 2 + 3 + ... + n"
+  ]
+}
