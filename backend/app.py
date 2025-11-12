@@ -1,8 +1,10 @@
 """
 FastAPI application with RQ job queue integration
 """
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, Depends, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import Optional, Dict, Any, List
 from sqlalchemy.orm import Session
@@ -12,6 +14,7 @@ from rq import Queue
 from rq.job import Job
 import pathlib
 import json
+import os
 
 from .database import get_db, init_db, SessionLocal
 from .models import Submission, TestResult
@@ -311,3 +314,31 @@ def health_check() -> Dict[str, Any]:
     status_code = 200 if checks["status"] == "healthy" else 503
 
     return JSONResponse(content=checks, status_code=status_code)
+
+
+# --- SERVIDOR ESTÁTICO (SERVIR FRONTEND COMPILADO) ---
+
+# 1. Montamos la carpeta 'assets' (que Vite genera dentro de 'dist')
+#    La ruta de Docker la puso en 'static/assets'
+if os.path.exists("static/assets"):
+    app.mount("/assets", StaticFiles(directory="static/assets"), name="static-assets")
+    logger.info("Mounted static assets from static/assets")
+
+# 2. Ruta "Catch-All" (atrapa-todo)
+#    Esto es CLAVE para que React Router (o el router que uses) funcione.
+#    Cualquier ruta que no sea /api/... o /assets/... va a devolver el index.html
+@app.get("/{full_path:path}")
+async def serve_spa(request: Request, full_path: str):
+    """Serve SPA for all non-API routes"""
+    # Si la ruta empieza con /api/, no la atrapamos (ya tienen sus endpoints)
+    if full_path.startswith("api/"):
+        raise HTTPException(status_code=404, detail="API endpoint not found")
+    
+    index_path = os.path.join("static", "index.html")
+    
+    # Chequeo por si las moscas
+    if not os.path.exists(index_path):
+        logger.warning("index.html not found in static directory")
+        return {"error": "Frontend not found - static/index.html missing"}, 404
+    
+    return FileResponse(index_path)
