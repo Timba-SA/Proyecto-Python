@@ -1,0 +1,13 @@
+{
+  "hints": [
+    {
+      "title": "💡 Estructuras de datos",
+      "content": "Python ofrece: listas `[]` (ordenadas, mutables), tuplas `()` (ordenadas, inmutables), diccionarios `{}` (pares clave-valor), y sets `{}` (únicos, sin orden). Elige la estructura apropiada."
+    },
+    {
+      "title": "🐛 Debugging",
+      "content": "Si tu código no funciona: 1) Imprime valores intermedios para ver qué está pasando, 2) Prueba con los ejemplos dados, 3) Verifica tipos de datos, 4) Revisa la indentación. Usa `print()` para depurar."
+    }
+  ],
+  "total_hints": 2
+}

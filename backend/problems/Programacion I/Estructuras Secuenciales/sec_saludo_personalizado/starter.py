@@ -1,7 +1,15 @@
+"""
+Sec Saludo Personalizado
+Tema: Estructuras Secuenciales
+"""
+
 def main():
-    # TODO: Lee el nombre con input()
-    # TODO: Imprime "Hola {nombre}!" usando f-string
-    pass
+    """
+    Función principal del programa
+    """
+    # TODO 1: Lee la entrada del usuario
+    # TODO 2: Imprime el resultado usando f-strings o print() directamente
+    pass  # Reemplaza esto con tu código
 
 if __name__ == "__main__":
     main()

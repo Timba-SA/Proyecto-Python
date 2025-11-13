@@ -1,11 +1,15 @@
+"""
+Cond Categorias Edad
+Tema: Estructuras Condicionales
+"""
+
 def main():
-    # TODO: Lee la edad
-    # TODO: Usa if-elif-else para clasificar:
-    #       < 13: Niño
-    #       13-17: Adolescente
-    #       18-59: Adulto
-    #       >= 60: Adulto mayor
-    pass
+    """
+    Función principal del programa
+    """
+    # TODO 1: Usa if/elif/else para tomar decisiones
+    # Verifica bien las condiciones (>, <, >=, <=, ==, !=)
+    pass  # Reemplaza esto con tu código
 
 if __name__ == "__main__":
     main()

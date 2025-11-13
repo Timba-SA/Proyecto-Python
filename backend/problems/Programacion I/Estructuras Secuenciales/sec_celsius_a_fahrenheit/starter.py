@@ -1,8 +1,15 @@
+"""
+Sec Celsius A Fahrenheit
+Tema: Estructuras Secuenciales
+"""
+
 def main():
-    # TODO: Lee temperatura en Celsius
-    # TODO: Convierte a Fahrenheit: F = (C × 9/5) + 32
-    # TODO: Imprime el resultado
-    pass
+    """
+    Función principal del programa
+    """
+    # TODO 1: Lee un número decimal con float(input())
+    # TODO 2: Imprime el resultado (verifica el formato exacto)
+    pass  # Reemplaza esto con tu código
 
 if __name__ == "__main__":
     main()

@@ -1,8 +1,15 @@
+"""
+Lista Contar Pares
+Tema: Listas
+"""
+
 def main():
-    # TODO: Lee los números
-    # TODO: Cuenta cuántos son pares (n % 2 == 0)
-    # TODO: Imprime el contador
-    pass
+    """
+    Función principal del programa
+    """
+    # TODO 1: Lee y separa la entrada con input().split()
+    # TODO 2: Imprime el resultado (verifica el formato exacto)
+    pass  # Reemplaza esto con tu código
 
 if __name__ == "__main__":
     main()

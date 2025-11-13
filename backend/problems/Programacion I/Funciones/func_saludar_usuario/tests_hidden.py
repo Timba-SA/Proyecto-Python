@@ -1,3 +1,11 @@
+"""
+Tests para: Func Saludar Usuario
+Tema: Funciones
+
+Este archivo contiene tests públicos que el estudiante puede ver.
+Los tests verifican que la solución cumpla con todos los requisitos.
+"""
+
 import importlib.util
 import os
 import inspect

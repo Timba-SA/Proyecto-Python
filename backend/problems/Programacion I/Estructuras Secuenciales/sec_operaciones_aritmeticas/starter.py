@@ -1,7 +1,15 @@
+"""
+Sec Operaciones Aritmeticas
+Tema: Estructuras Secuenciales
+"""
+
 def main():
-    # TODO: Lee dos números con float(input())
-    # TODO: Imprime suma, resta, multiplicación y división (4 líneas)
-    pass
+    """
+    Función principal del programa
+    """
+    # TODO 1: Lee un número entero con int(input())
+    # TODO 2: Imprime el resultado (verifica el formato exacto)
+    pass  # Reemplaza esto con tu código
 
 if __name__ == "__main__":
     main()

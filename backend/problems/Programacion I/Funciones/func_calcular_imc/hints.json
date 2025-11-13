@@ -1,0 +1,17 @@
+{
+  "hints": [
+    {
+      "title": "💡 Definición de funciones",
+      "content": "Una función se define con `def nombre(parametros):` y debe `return` un valor. Los parámetros son las variables que recibe, el return es lo que devuelve al que la llama."
+    },
+    {
+      "title": "🔄 Return vs Print",
+      "content": "No confundas `return` con `print()`. `return` devuelve un valor para ser usado por quien llamó la función. `print()` solo muestra en pantalla. Lee bien qué se pide."
+    },
+    {
+      "title": "🐛 Debugging",
+      "content": "Si tu código no funciona: 1) Imprime valores intermedios para ver qué está pasando, 2) Prueba con los ejemplos dados, 3) Verifica tipos de datos, 4) Revisa la indentación. Usa `print()` para depurar."
+    }
+  ],
+  "total_hints": 3
+}

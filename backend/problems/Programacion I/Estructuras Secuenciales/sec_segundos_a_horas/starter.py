@@ -1,8 +1,15 @@
+"""
+Sec Segundos A Horas
+Tema: Estructuras Secuenciales
+"""
+
 def main():
-    # TODO: Lee el total de segundos
-    # TODO: Calcula horas, minutos y segundos
-    # TODO: Usa // (división entera) y % (módulo)
-    pass
+    """
+    Función principal del programa
+    """
+    # TODO 1: Lee un número entero con int(input())
+    # TODO 2: Imprime el resultado usando f-strings o print() directamente
+    pass  # Reemplaza esto con tu código
 
 if __name__ == "__main__":
     main()

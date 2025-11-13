@@ -19,6 +19,24 @@ Ninguna
 100
 ```
 
+
+## ⚙️ Restricciones Técnicas
+
+### ✅ Estructura del programa:
+1. La función DEBE llamarse exactamente `main`
+2. La función NO debe recibir parámetros
+3. Debe incluir `if __name__ == "__main__": main()` al final (ya provisto)
+
+### ✅ Lectura de datos:
+1. Usar `input()` para leer la entrada
+2. Convertir al tipo de dato apropiado: `int()`, `float()`, `str()`
+3. NO imprimir prompts (mensajes que pidan datos)
+
+### ✅ Salida de datos:
+1. Usar `print()` con el formato exacto especificado
+2. Sin espacios extras, sin caracteres adicionales
+3. Respetar mayúsculas y minúsculas exactamente como se indica
+
 ## 💡 Pistas de Implementación
 
 **Pista 1 - Usar range()**:
@@ -37,3 +55,40 @@ for i in range(0, 101):  # Del 0 al 100 inclusive
 - Para incluir el 100, usa `range(0, 101)`
 
 ````
+
+
+## ⚠️ Errores Comunes a Evitar
+
+**Error 1: Formato de salida incorrecto**
+```python
+# ❌ INCORRECTO - Texto adicional
+print(f"El resultado es: {resultado}")
+```
+```python
+# ✅ CORRECTO - Solo el resultado
+print(resultado)
+```
+
+**Error 2: No convertir tipos de datos**
+```python
+# ❌ INCORRECTO - input() devuelve string
+valor = input()
+```
+```python
+# ✅ CORRECTO - Convertir al tipo apropiado
+valor = int(input())  # Para enteros
+```
+
+**Error 3: Indentación incorrecta**
+```python
+# ❌ INCORRECTO - Mala indentación
+def main():
+resultado = 42
+print(resultado)
+```
+```python
+# ✅ CORRECTO - Indentación correcta
+def main():
+    resultado = 42
+    print(resultado)
+```

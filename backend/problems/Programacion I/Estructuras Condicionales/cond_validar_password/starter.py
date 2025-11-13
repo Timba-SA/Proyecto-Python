@@ -1,8 +1,17 @@
+"""
+Cond Validar Password
+Tema: Estructuras Condicionales
+"""
+
 def main():
-    # TODO: Lee la contraseña
-    # TODO: Verifica que len(password) esté entre 8 y 14 (inclusivo)
-    # TODO: Usa comparación encadenada: 8 <= len(password) <= 14
-    pass
+    """
+    Función principal del programa
+    """
+    # TODO 1: Lee la entrada del usuario
+    # TODO 2: Usa if/elif/else para tomar decisiones
+    # Verifica bien las condiciones (>, <, >=, <=, ==, !=)
+    # TODO 3: Imprime el resultado (verifica el formato exacto)
+    pass  # Reemplaza esto con tu código
 
 if __name__ == "__main__":
     main()

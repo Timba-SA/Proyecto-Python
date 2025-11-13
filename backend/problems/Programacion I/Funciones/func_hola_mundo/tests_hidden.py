@@ -1,3 +1,11 @@
+"""
+Tests para: Func Hola Mundo
+Tema: Funciones
+
+Este archivo contiene tests públicos que el estudiante puede ver.
+Los tests verifican que la solución cumpla con todos los requisitos.
+"""
+
 import importlib.util
 import os
 from io import StringIO

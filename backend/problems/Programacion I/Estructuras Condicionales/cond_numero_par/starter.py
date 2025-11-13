@@ -1,8 +1,17 @@
+"""
+Cond Numero Par
+Tema: Estructuras Condicionales
+"""
+
 def main():
-    # TODO: Lee el número
-    # TODO: Usa módulo % para verificar si es par
-    # TODO: Si numero % 2 == 0, es par; si no, es impar
-    pass
+    """
+    Función principal del programa
+    """
+    # TODO 1: Lee un número entero con int(input())
+    # TODO 2: Usa if/elif/else para tomar decisiones
+    # Verifica bien las condiciones (>, <, >=, <=, ==, !=)
+    # TODO 3: Imprime el resultado (verifica el formato exacto)
+    pass  # Reemplaza esto con tu código
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,21 @@
+{
+  "hints": [
+    {
+      "title": "💡 Condicionales en Python",
+      "content": "Usa `if`, `elif` y `else` para tomar decisiones. La sintaxis es: `if condicion:` seguido de código indentado. Verifica que uses los operadores correctos: `==`, `!=`, `>`, `<`, `>=`, `<=`."
+    },
+    {
+      "title": "🎯 Casos borde",
+      "content": "Presta especial atención a los valores límite mencionados en los ejemplos. Asegúrate de que tu condición los maneje correctamente."
+    },
+    {
+      "title": "📝 Mensajes exactos",
+      "content": "Los mensajes de salida deben ser EXACTAMENTE como se especifican: mismas mayúsculas, minúsculas, espacios y puntuación. Copia el texto literal de los ejemplos."
+    },
+    {
+      "title": "🐛 Debugging",
+      "content": "Si tu código no funciona: 1) Imprime valores intermedios para ver qué está pasando, 2) Prueba con los ejemplos dados, 3) Verifica tipos de datos, 4) Revisa la indentación. Usa `print()` para depurar."
+    }
+  ],
+  "total_hints": 4
+}

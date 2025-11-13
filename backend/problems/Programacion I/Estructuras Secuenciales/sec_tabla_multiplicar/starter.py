@@ -1,8 +1,15 @@
+"""
+Sec Tabla Multiplicar
+Tema: Estructuras Secuenciales
+"""
+
 def main():
-    # TODO: Lee el número
-    # TODO: Imprime 10 líneas con formato: {numero} x {i} = {resultado}
-    # TODO: Sin usar loops (todavía no los has aprendido)
-    pass
+    """
+    Función principal del programa
+    """
+    # TODO 1: Lee un número entero con int(input())
+    # TODO 2: Imprime el resultado usando f-strings o print() directamente
+    pass  # Reemplaza esto con tu código
 
 if __name__ == "__main__":
     main()

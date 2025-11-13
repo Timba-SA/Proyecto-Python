@@ -1,8 +1,14 @@
-def celsius_a_fahrenheit(celsius):
-    # TODO: Convierte Celsius a Fahrenheit usando la fórmula
-    # Fahrenheit = (Celsius × 9/5) + 32
-    pass
+"""
+Func Celsius A Fahrenheit
+Tema: Funciones
+"""
+
+def main():
+    """
+    Función principal del programa
+    """
+    # TODO 1: Imprime el resultado (verifica el formato exacto)
+    pass  # Reemplaza esto con tu código
 
 if __name__ == "__main__":
-    # TODO: Prueba la función
-    pass
+    main()

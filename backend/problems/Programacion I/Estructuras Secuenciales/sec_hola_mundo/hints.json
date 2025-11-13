@@ -1,0 +1,21 @@
+{
+  "hints": [
+    {
+      "title": "💡 Estructura básica",
+      "content": "Recuerda que en un programa secuencial, las instrucciones se ejecutan una tras otra en orden. Primero lees datos con `input()`, luego procesas, y finalmente imprimes el resultado con `print()`."
+    },
+    {
+      "title": "📥 Lectura de datos",
+      "content": "Usa `input()` para leer texto y conviértelo al tipo apropiado: `int(input())` para enteros, `float(input())` para decimales. No imprimas mensajes de solicitud."
+    },
+    {
+      "title": "📤 Salida de datos",
+      "content": "Verifica que tu salida sea exactamente como se pide. Usa `print()` sin texto adicional y asegúrate de que el formato coincida con los ejemplos."
+    },
+    {
+      "title": "🐛 Debugging",
+      "content": "Si tu código no funciona: 1) Imprime valores intermedios para ver qué está pasando, 2) Prueba con los ejemplos dados, 3) Verifica tipos de datos, 4) Revisa la indentación. Usa `print()` para depurar."
+    }
+  ],
+  "total_hints": 4
+}

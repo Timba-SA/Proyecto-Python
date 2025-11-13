@@ -1,0 +1,17 @@
+{
+  "hints": [
+    {
+      "title": "💡 Estructuras de datos",
+      "content": "Python ofrece: listas `[]` (ordenadas, mutables), tuplas `()` (ordenadas, inmutables), diccionarios `{}` (pares clave-valor), y sets `{}` (únicos, sin orden). Elige la estructura apropiada."
+    },
+    {
+      "title": "🔶 Sets (conjuntos)",
+      "content": "Sets no permiten duplicados y no tienen orden: `s = {1, 2, 3}`. Usa `s.add(x)` para agregar, `s.remove(x)` para quitar. Útiles para operaciones de conjuntos: unión, intersección, diferencia."
+    },
+    {
+      "title": "🐛 Debugging",
+      "content": "Si tu código no funciona: 1) Imprime valores intermedios para ver qué está pasando, 2) Prueba con los ejemplos dados, 3) Verifica tipos de datos, 4) Revisa la indentación. Usa `print()` para depurar."
+    }
+  ],
+  "total_hints": 3
+}

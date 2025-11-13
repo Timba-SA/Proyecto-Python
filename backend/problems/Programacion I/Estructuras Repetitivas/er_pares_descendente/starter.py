@@ -1,8 +1,15 @@
+"""
+Er Pares Descendente
+Tema: Estructuras Repetitivas
+"""
+
 def main():
-    # TODO: Crear un ciclo for que vaya de 100 a 0
-    # TODO: Usar un paso de -2 para obtener solo pares
-    # TODO: Imprimir cada número par
-    pass
+    """
+    Función principal del programa
+    """
+    # TODO 1: Crea un ciclo for con range()
+    # TODO 2: Imprime el resultado (verifica el formato exacto)
+    pass  # Reemplaza esto con tu código
 
 if __name__ == "__main__":
     main()

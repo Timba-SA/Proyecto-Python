@@ -1,0 +1,21 @@
+{
+  "hints": [
+    {
+      "title": "💡 Ciclos en Python",
+      "content": "Python ofrece dos tipos de ciclos: `for` (cuando sabes cuántas iteraciones) y `while` (cuando la condición determina cuándo parar). Elige el más apropiado para tu problema."
+    },
+    {
+      "title": "🔢 Uso de range()",
+      "content": "`range(n)` genera números de 0 a n-1. `range(1, n+1)` genera de 1 a n. `range(inicio, fin, paso)` permite controlar el incremento. Para contar hacia atrás usa paso negativo."
+    },
+    {
+      "title": "📊 Patrón acumulador",
+      "content": "Inicializa una variable en 0 antes del ciclo (ej: `suma = 0`). Dentro del ciclo, agrégale valores: `suma += i`. Al final del ciclo tendrás el total acumulado."
+    },
+    {
+      "title": "🐛 Debugging",
+      "content": "Si tu código no funciona: 1) Imprime valores intermedios para ver qué está pasando, 2) Prueba con los ejemplos dados, 3) Verifica tipos de datos, 4) Revisa la indentación. Usa `print()` para depurar."
+    }
+  ],
+  "total_hints": 4
+}

@@ -1,7 +1,15 @@
+"""
+Sec Presentacion Completa
+Tema: Estructuras Secuenciales
+"""
+
 def main():
-    # TODO: Lee nombre (string), edad (int) y ciudad (string)
-    # TODO: Imprime presentación con formato exacto
-    pass
+    """
+    Función principal del programa
+    """
+    # TODO 1: Lee un número entero con int(input())
+    # TODO 2: Imprime el resultado usando f-strings o print() directamente
+    pass  # Reemplaza esto con tu código
 
 if __name__ == "__main__":
     main()

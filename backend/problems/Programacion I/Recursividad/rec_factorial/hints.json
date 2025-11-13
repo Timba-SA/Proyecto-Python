@@ -1,0 +1,25 @@
+{
+  "hints": [
+    {
+      "title": "💡 Concepto de recursividad",
+      "content": "Una función recursiva se llama a sí misma. SIEMPRE debe tener: 1) Caso base (cuándo detenerse), 2) Caso recursivo (llamada a sí misma con un problema más pequeño). Sin caso base, hay recursión infinita."
+    },
+    {
+      "title": "🛑 Caso base",
+      "content": "El caso base es la condición de parada. Debe ser una situación simple que puedas resolver sin recursión. Ejemplo: en factorial, si n=0 o n=1, retorna 1 sin llamarse nuevamente."
+    },
+    {
+      "title": "🔄 Caso recursivo",
+      "content": "El caso recursivo resuelve un problema grande usando la solución de uno más pequeño. Ejemplo: factorial(n) = n * factorial(n-1). Asegúrate de que cada llamada recursiva acerque al caso base."
+    },
+    {
+      "title": "📚 Ejemplo: Factorial",
+      "content": "```python\ndef factorial(n):\n    if n == 0 or n == 1:  # Caso base\n        return 1\n    else:  # Caso recursivo\n        return n * factorial(n - 1)\n```"
+    },
+    {
+      "title": "🐛 Debugging",
+      "content": "Si tu código no funciona: 1) Imprime valores intermedios para ver qué está pasando, 2) Prueba con los ejemplos dados, 3) Verifica tipos de datos, 4) Revisa la indentación. Usa `print()` para depurar."
+    }
+  ],
+  "total_hints": 5
+}

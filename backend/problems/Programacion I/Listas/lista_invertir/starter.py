@@ -1,8 +1,15 @@
+"""
+Lista Invertir
+Tema: Listas
+"""
+
 def main():
-    # TODO: Lee los números
-    # TODO: Invierte la lista
-    # TODO: Imprime separados por espacios
-    pass
+    """
+    Función principal del programa
+    """
+    # TODO 1: Lee y separa la entrada con input().split()
+    # TODO 2: Imprime el resultado (verifica el formato exacto)
+    pass  # Reemplaza esto con tu código
 
 if __name__ == "__main__":
     main()

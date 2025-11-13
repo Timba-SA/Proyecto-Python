@@ -1,3 +1,11 @@
+"""
+Tests para: Cond Categorias Edad
+Tema: Estructuras Condicionales
+
+Este archivo contiene tests públicos que el estudiante puede ver.
+Los tests verifican que la solución cumpla con todos los requisitos.
+"""
+
 import importlib.util
 import os
 

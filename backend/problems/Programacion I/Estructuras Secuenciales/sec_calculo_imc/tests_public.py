@@ -1,3 +1,11 @@
+"""
+Tests para: Sec Calculo Imc
+Tema: Estructuras Secuenciales
+
+Este archivo contiene tests públicos que el estudiante puede ver.
+Los tests verifican que la solución cumpla con todos los requisitos.
+"""
+
 import importlib.util
 import os
 from io import StringIO

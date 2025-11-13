@@ -1,0 +1,13 @@
+{
+  "hints": [
+    {
+      "title": "💡 Trabajando con listas",
+      "content": "Las listas en Python son colecciones ordenadas y mutables. Se crean con `[]` o `list()`. Accede a elementos por índice: `lista[0]` es el primero, `lista[-1]` es el último."
+    },
+    {
+      "title": "🐛 Debugging",
+      "content": "Si tu código no funciona: 1) Imprime valores intermedios para ver qué está pasando, 2) Prueba con los ejemplos dados, 3) Verifica tipos de datos, 4) Revisa la indentación. Usa `print()` para depurar."
+    }
+  ],
+  "total_hints": 2
+}
