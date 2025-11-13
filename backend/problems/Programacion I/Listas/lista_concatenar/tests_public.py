@@ -28,7 +28,7 @@ def test_concatenar_simple():
 
 def test_concatenar_vacia():
     old_stdin, old_stdout = sys.stdin, sys.stdout
-    sys.stdin, sys.stdout = StringIO("1 2 3\n"), StringIO()
+    sys.stdin, sys.stdout = StringIO("1 2 3\n\n"), StringIO()
     student.main()
     output = sys.stdout.getvalue().strip()
     sys.stdin, sys.stdout = old_stdin, old_stdout

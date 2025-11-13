@@ -1,49 +1,77 @@
-# Legacy Files
+# 📦 Legacy Files - Código Histórico
 
-These files represent the original MVP monolithic architecture before the microservices refactoring (Oct 2025).
+Estos archivos representan la arquitectura monolítica original del MVP antes de la refactorización a microservicios (Octubre 2025).
 
-## ⚠️ DO NOT USE THESE FILES IN PRODUCTION
+## ⚠️ NO USAR ESTOS ARCHIVOS EN PRODUCCIÓN
 
-This directory contains historical code preserved for reference only.
+Este directorio contiene código histórico preservado únicamente como referencia educativa y para entender la evolución del proyecto.
 
-## Files
+## 📄 Archivos
 
-### `app.py` (previously `app.py.legacy`)
-Original monolithic FastAPI application. This has been replaced by:
-- `backend/app.py` - FastAPI REST API
-- `worker/tasks.py` - RQ worker for job processing
-- `backend/services/` - Service layer architecture
+### `app.py` (anteriormente `app.py.legacy`)
+Aplicación monolítica FastAPI original. Ha sido reemplazada por:
+- `backend/app.py` - API REST FastAPI
+- `worker/tasks.py` - Worker RQ para procesamiento de jobs
+- `backend/services/` - Arquitectura de capa de servicios
 
 ### `runner.py`
-Original Docker execution logic (130 lines). Now replaced by:
-- `worker/services/docker_runner.py` - Modern Docker execution with path translation
-- `worker/tasks.py` - Job orchestration
+Lógica original de ejecución Docker (130 líneas). Ahora reemplazada por:
+- `worker/services/docker_runner.py` - Ejecución Docker moderna con traducción de paths
+- `worker/tasks.py` - Orquestación de jobs
 
-### `Dockerfile.monolithic` (previously `Dockerfile`)
-Original single-container Dockerfile. Now replaced by:
-- `backend/Dockerfile` - Backend service container
-- `worker/Dockerfile` - Worker service container
-- `frontend/Dockerfile` - Frontend service container
-- `runner/Dockerfile` - Minimal sandbox container
+### `Dockerfile.monolithic` (anteriormente `Dockerfile`)
+Dockerfile original de contenedor único. Ahora reemplazado por:
+- `backend/Dockerfile` - Contenedor del servicio backend
+- `worker/Dockerfile` - Contenedor del servicio worker
+- `frontend/Dockerfile` - Contenedor del servicio frontend
+- `runner/Dockerfile` - Contenedor sandbox minimalista
 
 ### `requirements.txt`
-Original monolithic dependencies. Now replaced by:
-- `backend/requirements.txt` - Backend dependencies
-- `worker/requirements.txt` - Worker dependencies
-- Each service has its own isolated dependencies
+Dependencias monolíticas originales. Ahora reemplazadas por:
+- `backend/requirements.txt` - Dependencias del backend
+- `worker/requirements.txt` - Dependencias del worker
+- Cada servicio tiene sus propias dependencias aisladas
 
-## Migration History
+## 📅 Historial de Migración
 
-**October 25, 2025**: Microservices refactoring completed
-- Separated concerns into backend, worker, frontend services
-- Implemented service layer architecture
-- Added structured logging and validation
-- Migrated to Pydantic v2 schemas
+**25 de Octubre, 2025**: Refactorización a microservicios completada
+- Separación de responsabilidades en servicios backend, worker, frontend
+- Implementación de arquitectura de capa de servicios
+- Agregado de logging estructurado y validación
+- Migración a schemas Pydantic v2
 
-**November 10, 2025**: Legacy files moved to this directory
-- Cleaned up root directory structure
-- Improved architectural clarity
+**10 de Noviembre, 2025**: Archivos legacy movidos a este directorio
+- Limpieza de estructura del directorio raíz
+- Mejora de claridad arquitectónica
 
-## References
+**13 de Noviembre, 2025**: Documentación actualizada
+- READMEs actualizados en todo el proyecto
+- Estructura de paquetes Python completada con `__init__.py`
+- Tests corregidos y optimizados
 
-See `LEGACY_FILES.md` in the root directory for detailed migration notes and rationale.
+## 📖 Referencias
+
+- Ver `LEGACY_FILES.md` en el directorio raíz para notas detalladas de migración
+- Ver `CLAUDE.md` para la documentación completa del proyecto actual
+- Ver `README.md` principal para instrucciones de uso
+
+## 💡 Lecciones Aprendidas
+
+La migración de monolito a microservicios proporcionó:
+- ✅ Mejor separación de responsabilidades
+- ✅ Escalabilidad independiente de servicios
+- ✅ Testing más granular y mantenible
+- ✅ Deployment más flexible
+- ✅ Código más limpio y organizado
+
+## 🎓 Valor Educativo
+
+Estos archivos son útiles para:
+- Entender decisiones de arquitectura
+- Comparar patrones monolíticos vs microservicios
+- Aprender sobre refactorización a gran escala
+- Estudiar evolución de código en proyectos reales
+
+---
+
+**Última actualización**: Noviembre 13, 2025

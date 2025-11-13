@@ -12,7 +12,7 @@
 
 ---
 
-## 🎉 Mejoras Recientes (Oct 2025)
+## 🎉 Mejoras Recientes (Nov 2025)
 
 **Performance optimizado para producción**:
 - ⚡ N+1 queries eliminados - **100x más rápido**
@@ -21,8 +21,10 @@
 - 📦 Docker images **30-40% más pequeñas**
 - 🎯 Type hints en todos los endpoints
 - 🏆 Codebase health score: **8.2/10**
+- 📦 Estructura de paquetes Python completa con `__init__.py`
+- ✅ Tests corregidos y optimizados
 
-Ver [REFACTORING_SESSION_2025-10-25.md](REFACTORING_SESSION_2025-10-25.md) para detalles completos.
+Ver documentación en [CLAUDE.md](CLAUDE.md) para detalles completos.
 
 ---
 
@@ -161,7 +163,7 @@ Frontend (React+TypeScript+Monaco) → Backend (FastAPI) → Redis (RQ Queue) �
   └── 📖 Programación Dinámica
 ```
 
-**Total actual**: 20 problemas funcionales
+**Total actual**: 31+ problemas funcionales organizados en 8 materias
 
 ---
 
@@ -509,4 +511,4 @@ Proyecto creado como MVP educativo para enseñanza de programación Python.
 
 **Hecho con ❤️ para la educación** 🚀
 
-**Última actualización**: 25 de Octubre, 2025
+**Última actualización**: 13 de Noviembre, 2025
