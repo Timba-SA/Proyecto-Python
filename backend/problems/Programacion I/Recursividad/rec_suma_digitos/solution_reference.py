@@ -1,5 +1,5 @@
 def suma_digitos(n):
-    """Calcula la suma de los dígitos de n de forma recursiva"""
+    """Calcula la suma de los dígitos de n usando recursión"""
     if n == 0:
         return 0
     else:

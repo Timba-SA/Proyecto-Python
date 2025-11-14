@@ -1,5 +1,5 @@
 def decimal_a_binario(n):
-    """Convierte un número decimal a binario de forma recursiva"""
+    """Convierte un número decimal a binario usando recursión"""
     if n == 0:
         return ""
     else:

@@ -1,5 +1,5 @@
 def contar_bloques(n):
-    """Calcula el total de bloques de una pirámide de forma recursiva"""
+    """Calcula el total de bloques de una pirámide usando recursión"""
     if n == 0:
         return 0
     else:

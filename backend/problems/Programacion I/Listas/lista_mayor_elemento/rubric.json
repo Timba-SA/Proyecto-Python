@@ -1,12 +1,40 @@
 {
   "tests": [
-    {"name": "test_existe_funcion", "points": 2, "visibility": "public"},
-    {"name": "test_mayor_simple", "points": 2, "visibility": "public"},
-    {"name": "test_mayor_negativos", "points": 2, "visibility": "public"},
-    {"name": "test_mayor_un_elemento", "points": 1, "visibility": "public"},
-    {"name": "test_mayor_primero", "points": 1, "visibility": "hidden"},
-    {"name": "test_mayor_ultimo", "points": 1, "visibility": "hidden"},
-    {"name": "test_mayor_repetido", "points": 1, "visibility": "hidden"}
+    {
+      "name": "test_existe_funcion",
+      "points": 2,
+      "visibility": "visible"
+    },
+    {
+      "name": "test_mayor_simple",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_mayor_negativos",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_mayor_un_elemento",
+      "points": 1,
+      "visibility": "public"
+    },
+    {
+      "name": "test_mayor_primero",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_mayor_ultimo",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_mayor_repetido",
+      "points": 1,
+      "visibility": "hidden"
+    }
   ],
   "max_points": 10
 }

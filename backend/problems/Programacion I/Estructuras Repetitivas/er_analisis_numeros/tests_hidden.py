@@ -20,8 +20,8 @@ def test_solo_ceros():
     old_stdout = sys.stdout
     old_stdin = sys.stdin
     
-    # 10 ceros: todos pares, ninguno positivo ni negativo
-    sys.stdin = StringIO('0\n' * 10)
+    # 100 ceros: todos pares, ninguno positivo ni negativo
+    sys.stdin = StringIO('0\n' * 100)
     sys.stdout = StringIO()
 
     student.main()
@@ -31,5 +31,8 @@ def test_solo_ceros():
     sys.stdin = old_stdin
 
     lineas = output.strip().split('\n')
-    # Pares: 10, Impares: 0, Negativos: 0, Positivos: 0
-    assert '10' in lineas[0] or '0' in lineas[1], "Debe contar correctamente los ceros"
+    # Pares: 100, Impares: 0, Negativos: 0, Positivos: 0
+    assert lineas[0].strip() == '100', f"Todos los ceros son pares, debe ser 100, se obtuvo {lineas[0]}"
+    assert lineas[1].strip() == '0', f"No hay impares, debe ser 0, se obtuvo {lineas[1]}"
+    assert lineas[2].strip() == '0', f"No hay negativos, debe ser 0, se obtuvo {lineas[2]}"
+    assert lineas[3].strip() == '0', f"No hay positivos, debe ser 0, se obtuvo {lineas[3]}"

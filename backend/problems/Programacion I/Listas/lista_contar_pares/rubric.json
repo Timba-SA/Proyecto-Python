@@ -1,11 +1,35 @@
 {
   "tests": [
-    {"name": "test_existe_funcion", "points": 2, "visibility": "public"},
-    {"name": "test_contar_pares_simple", "points": 3, "visibility": "public"},
-    {"name": "test_sin_pares", "points": 2, "visibility": "public"},
-    {"name": "test_todos_pares", "points": 1, "visibility": "hidden"},
-    {"name": "test_con_cero", "points": 1, "visibility": "hidden"},
-    {"name": "test_negativos_pares", "points": 1, "visibility": "hidden"}
+    {
+      "name": "test_existe_funcion",
+      "points": 2,
+      "visibility": "visible"
+    },
+    {
+      "name": "test_contar_pares_simple",
+      "points": 3,
+      "visibility": "public"
+    },
+    {
+      "name": "test_sin_pares",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_todos_pares",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_con_cero",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_negativos_pares",
+      "points": 1,
+      "visibility": "hidden"
+    }
   ],
   "max_points": 10
 }

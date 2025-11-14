@@ -1,5 +1,5 @@
 def contar_digito(numero, digito):
-    """Cuenta cuántas veces aparece un dígito en un número de forma recursiva"""
+    """Cuenta cuántas veces aparece un dígito en un número usando recursión"""
     if numero == 0:
         return 0
     else:

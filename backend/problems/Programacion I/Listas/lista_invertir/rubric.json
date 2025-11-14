@@ -3,7 +3,7 @@
     {
       "name": "test_existe_funcion",
       "points": 3,
-      "visibility": "public"
+      "visibility": "visible"
     },
     {
       "name": "test_invertir_simple",

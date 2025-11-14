@@ -3,7 +3,7 @@
     {
       "name": "test_existe_funcion",
       "points": 4,
-      "visibility": "public"
+      "visibility": "visible"
     },
     {
       "name": "test_imprime_0_y_100",

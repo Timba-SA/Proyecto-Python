@@ -3,7 +3,7 @@
     {
       "name": "test_existe_funcion",
       "points": 1,
-      "visibility": "public"
+      "visibility": "visible"
     },
     {
       "name": "test_existe_funcion_contar_bloques",

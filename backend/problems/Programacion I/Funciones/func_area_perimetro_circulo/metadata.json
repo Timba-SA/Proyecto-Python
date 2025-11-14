@@ -1,8 +1,8 @@
 {
-  "title": "Área y Perímetro del Círculo",
+  "title": "Area y Perímetro del Círculo",
   "subject_id": "programacion-1",
   "unit_id": "funciones",
-  "difficulty": "medium",
+  "difficulty": "medio",
   "tags": [
     "funciones",
     "matematica",
@@ -13,7 +13,7 @@
   "memory_mb": 128,
   "hints": [
     "Crea dos funciones: calcular_area_circulo(radio) y calcular_perimetro_circulo(radio)",
-    "Área = π * radio²",
+    "Area = π * radio²",
     "Perímetro = 2 * π * radio",
     "Usa math.pi o 3.14159 para π"
   ]

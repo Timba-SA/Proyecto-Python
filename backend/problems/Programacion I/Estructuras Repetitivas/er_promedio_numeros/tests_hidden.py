@@ -15,13 +15,14 @@ spec = importlib.util.spec_from_file_location('student_code', os.path.join(os.ge
 student = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(student)
 
-def test_promedio_con_negativos():
-    """Verifica promedio con números negativos"""
+def test_promedio_100_negativos_positivos():
+    """Verifica promedio con números negativos y positivos balanceados"""
     old_stdout = sys.stdout
     old_stdin = sys.stdin
     
-    # -10, 10, -20, 20, 0 -> promedio = 0
-    sys.stdin = StringIO('-10\n10\n-20\n20\n0\n')
+    # 50 números con valor -50 y 50 números con valor 50 -> promedio = 0
+    numeros = '\n'.join(['-50'] * 50 + ['50'] * 50)
+    sys.stdin = StringIO(numeros + '\n')
     sys.stdout = StringIO()
 
     student.main()

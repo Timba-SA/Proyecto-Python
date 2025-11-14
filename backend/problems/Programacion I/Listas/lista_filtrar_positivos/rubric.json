@@ -1,11 +1,35 @@
 {
   "tests": [
-    {"name": "test_existe_funcion", "points": 2, "visibility": "public"},
-    {"name": "test_filtrar_mixtos", "points": 3, "visibility": "public"},
-    {"name": "test_solo_negativos", "points": 2, "visibility": "public"},
-    {"name": "test_solo_positivos", "points": 1, "visibility": "hidden"},
-    {"name": "test_con_cero", "points": 1, "visibility": "hidden"},
-    {"name": "test_un_positivo", "points": 1, "visibility": "hidden"}
+    {
+      "name": "test_existe_funcion",
+      "points": 2,
+      "visibility": "visible"
+    },
+    {
+      "name": "test_filtrar_mixtos",
+      "points": 3,
+      "visibility": "public"
+    },
+    {
+      "name": "test_solo_negativos",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_solo_positivos",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_con_cero",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_un_positivo",
+      "points": 1,
+      "visibility": "hidden"
+    }
   ],
   "max_points": 10
 }
