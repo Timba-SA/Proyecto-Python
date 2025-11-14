@@ -120,11 +120,13 @@ class ProblemService:
         Searches for directories containing metadata.json files.
         """
         problems = {}
+        # Directories to skip
+        SKIP_DIRS = {'__pycache__', '.git', '.pytest_cache', 'node_modules', '.venv', 'venv'}
 
         def scan_dir(current_dir: Path):
             """Recursively scan directory for problems"""
             for item in current_dir.iterdir():
-                if not item.is_dir() or item.name.startswith('.'):
+                if not item.is_dir() or item.name.startswith('.') or item.name in SKIP_DIRS:
                     continue
 
                 # Check if this directory is a problem (has metadata.json)
@@ -199,21 +201,21 @@ class ProblemService:
         meta_path = problem_dir / "metadata.json"
         if not meta_path.exists():
             return {}
-        return json.loads(meta_path.read_text(encoding="utf-8"))
+        return json.loads(meta_path.read_text(encoding="utf-8-sig"))
 
     def _load_prompt(self, problem_dir: Path) -> str:
         """Load prompt.md"""
         prompt_path = problem_dir / "prompt.md"
         if not prompt_path.exists():
             return ""
-        return prompt_path.read_text(encoding="utf-8")
+        return prompt_path.read_text(encoding="utf-8-sig")
 
     def _load_starter(self, problem_dir: Path) -> str:
         """Load starter.py"""
         starter_path = problem_dir / "starter.py"
         if not starter_path.exists():
             return ""
-        return starter_path.read_text(encoding="utf-8")
+        return starter_path.read_text(encoding="utf-8-sig")
 
     def get_test_files(self, problem_id: str) -> Dict[str, Optional[Path]]:
         """Get paths to test files"""
@@ -238,7 +240,7 @@ class ProblemService:
             logger.warning(f"No rubric found for problem {problem_id}")
             return {"tests": [], "max_points": 0}
 
-        return json.loads(rubric_path.read_text(encoding="utf-8"))
+        return json.loads(rubric_path.read_text(encoding="utf-8-sig"))
 
     def list_by_subject_and_unit(
         self, subject_id: Optional[str] = None, unit_id: Optional[str] = None

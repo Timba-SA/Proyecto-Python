@@ -7,22 +7,22 @@
     },
     {
       "name": "test_existe_funcion_contar_digito",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_contar_digito_es_recursiva",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_contar_digito_basico",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_contar_digito_repetido",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
@@ -32,12 +32,12 @@
     },
     {
       "name": "test_contar_digito_ceros",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_salida_completa",
-      "points": 2,
+      "points": 0,
       "visibility": "public"
     },
     {
@@ -57,9 +57,9 @@
     },
     {
       "name": "test_salida_completa_no_existe",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     }
   ],
-  "max_points": 18
+  "max_points": 10
 }

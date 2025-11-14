@@ -1,11 +1,35 @@
 {
   "tests": [
-    {"name": "test_existen_funciones", "points": 2, "visibility": "public"},
-    {"name": "test_area_radio_5", "points": 2, "visibility": "public"},
-    {"name": "test_perimetro_radio_5", "points": 2, "visibility": "public"},
-    {"name": "test_area_radio_10", "points": 1, "visibility": "hidden"},
-    {"name": "test_perimetro_radio_10", "points": 1, "visibility": "hidden"},
-    {"name": "test_funciones_devuelven_numero", "points": 2, "visibility": "hidden"}
+    {
+      "name": "test_existen_funciones",
+      "points": 3,
+      "visibility": "public"
+    },
+    {
+      "name": "test_area_radio_5",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_perimetro_radio_5",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_area_radio_10",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_perimetro_radio_10",
+      "points": 1,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_funciones_devuelven_numero",
+      "points": 1,
+      "visibility": "hidden"
+    }
   ],
   "max_points": 10
 }

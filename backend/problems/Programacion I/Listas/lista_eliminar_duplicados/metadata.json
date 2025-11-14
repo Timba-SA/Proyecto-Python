@@ -3,8 +3,16 @@
   "subject_id": "programacion-1",
   "unit_id": "listas",
   "difficulty": "medium",
-  "tags": ["listas", "duplicados", "set", "unique"],
+  "tags": [
+    "listas",
+    "duplicados",
+    "set",
+    "unique"
+  ],
   "timeout_sec": 3.0,
   "memory_mb": 128,
-  "hints": ["Usa set() para eliminar duplicados", "Convierte de vuelta a list() y ordena si es necesario"]
+  "hints": [
+    "Usa set() para eliminar duplicados",
+    "Convierte de vuelta a list() y ordena si es necesario"
+  ]
 }

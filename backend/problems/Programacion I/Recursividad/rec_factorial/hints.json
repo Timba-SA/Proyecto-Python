@@ -13,7 +13,7 @@
       "content": "El caso recursivo resuelve un problema grande usando la solución de uno más pequeño. Ejemplo: factorial(n) = n * factorial(n-1). Asegúrate de que cada llamada recursiva acerque al caso base."
     },
     {
-      "title": "📚 Ejemplo: Factorial",
+      "title": "📝 Ejemplo: Factorial",
       "content": "```python\ndef factorial(n):\n    if n == 0 or n == 1:  # Caso base\n        return 1\n    else:  # Caso recursivo\n        return n * factorial(n - 1)\n```"
     },
     {

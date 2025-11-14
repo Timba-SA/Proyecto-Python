@@ -7,12 +7,12 @@
     },
     {
       "name": "test_existe_funcion_factorial",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_factorial_es_recursiva",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
@@ -22,17 +22,17 @@
     },
     {
       "name": "test_factorial_5",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_salida_completa_n3",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_salida_completa_n5",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "name": "test_salida_completa_n1",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     },
     {
@@ -56,5 +56,5 @@
       "visibility": "hidden"
     }
   ],
-  "max_points": 16
+  "max_points": 10
 }

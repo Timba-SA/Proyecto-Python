@@ -1,10 +1,30 @@
 {
   "tests": [
-    {"name": "test_existe_funcion", "points": 2, "visibility": "public"},
-    {"name": "test_cero_grados", "points": 2, "visibility": "public"},
-    {"name": "test_100_grados", "points": 2, "visibility": "public"},
-    {"name": "test_25_grados", "points": 2, "visibility": "hidden"},
-    {"name": "test_devuelve_numero", "points": 2, "visibility": "hidden"}
+    {
+      "name": "test_existe_funcion",
+      "points": 3,
+      "visibility": "public"
+    },
+    {
+      "name": "test_cero_grados",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_100_grados",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_25_grados",
+      "points": 2,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_devuelve_numero",
+      "points": 1,
+      "visibility": "hidden"
+    }
   ],
   "max_points": 10
 }

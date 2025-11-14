@@ -2,13 +2,18 @@
   "tests": [
     {
       "name": "test_existe_funcion",
-      "points": 3,
+      "points": 4,
       "visibility": "public"
     },
     {
       "name": "test_cuenta_intentos",
-      "points": 7,
+      "points": 3,
       "visibility": "public"
+    },
+    {
+      "name": "test_adivinanza_completa",
+      "points": 3,
+      "visibility": "hidden"
     }
   ],
   "max_points": 10

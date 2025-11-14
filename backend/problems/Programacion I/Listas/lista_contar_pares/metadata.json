@@ -3,7 +3,12 @@
   "subject_id": "programacion-1",
   "unit_id": "listas",
   "difficulty": "easy",
-  "tags": ["listas", "contador", "modulo", "pares"],
+  "tags": [
+    "listas",
+    "contador",
+    "modulo",
+    "pares"
+  ],
   "timeout_sec": 3.0,
   "memory_mb": 128,
   "hints": [

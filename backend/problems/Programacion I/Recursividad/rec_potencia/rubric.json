@@ -7,32 +7,32 @@
     },
     {
       "name": "test_existe_funcion_potencia",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_potencia_es_recursiva",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_potencia_caso_base",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_potencia_2_3",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_potencia_3_4",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_salida_completa",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "name": "test_salida_5_0",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     },
     {
@@ -56,5 +56,5 @@
       "visibility": "hidden"
     }
   ],
-  "max_points": 17
+  "max_points": 10
 }

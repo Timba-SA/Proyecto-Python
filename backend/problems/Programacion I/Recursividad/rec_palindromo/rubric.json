@@ -7,12 +7,12 @@
     },
     {
       "name": "test_existe_funcion_es_palindromo",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_es_palindromo_recursiva",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
@@ -22,22 +22,22 @@
     },
     {
       "name": "test_palindromo_neuquen",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_no_palindromo_hola",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_salida_completa_palindromo",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_salida_completa_no_palindromo",
-      "points": 2,
+      "points": 0,
       "visibility": "public"
     },
     {
@@ -57,14 +57,14 @@
     },
     {
       "name": "test_no_palindromo_python",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     },
     {
       "name": "test_salida_mayusculas",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     }
   ],
-  "max_points": 19
+  "max_points": 10
 }

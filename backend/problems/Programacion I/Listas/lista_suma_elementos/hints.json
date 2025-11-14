@@ -5,7 +5,7 @@
       "content": "Las listas en Python son colecciones ordenadas y mutables. Se crean con `[]` o `list()`. Accede a elementos por índice: `lista[0]` es el primero, `lista[-1]` es el último."
     },
     {
-      "title": "🔄 Iterar sobre listas",
+      "title": "ðŸ”„ Iterar sobre listas",
       "content": "Para recorrer una lista: `for elemento in lista:` itera sobre valores. `for i in range(len(lista)):` itera sobre índices. Elige según necesites el valor o la posición."
     },
     {

@@ -13,7 +13,7 @@
   "hints": [
     "El caso base es cuando exponente == 0, devuelve 1",
     "El caso recursivo es base * potencia(base, exponente - 1)",
-    "Fórmula: n^m = n × n^(m-1)",
+    "Fórmula: n^m = n Áƒâ€” n^(m-1)",
     "Cualquier número elevado a 0 es 1"
   ]
 }

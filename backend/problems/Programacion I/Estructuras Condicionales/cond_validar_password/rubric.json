@@ -2,12 +2,12 @@
   "tests": [
     {
       "name": "test_existe_funcion",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
       "name": "test_password_valida_8",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
@@ -42,12 +42,12 @@
     },
     {
       "name": "test_password_con_caracteres_especiales",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     },
     {
       "name": "test_password_limite_superior",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     }
   ],

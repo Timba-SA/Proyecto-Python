@@ -5,11 +5,11 @@
       "content": "Python ofrece dos tipos de ciclos: `for` (cuando sabes cuántas iteraciones) y `while` (cuando la condición determina cuándo parar). Elige el más apropiado para tu problema."
     },
     {
-      "title": "🔢 Uso de range()",
+      "title": "ðŸ”¢ Uso de range()",
       "content": "`range(n)` genera números de 0 a n-1. `range(1, n+1)` genera de 1 a n. `range(inicio, fin, paso)` permite controlar el incremento. Para contar hacia atrás usa paso negativo."
     },
     {
-      "title": "🔢 Patrón contador",
+      "title": "ðŸ”¢ Patrón contador",
       "content": "Inicializa una variable en 0 antes del ciclo (ej: `contador = 0`). Cuando se cumple una condición, incrementa: `contador += 1`. Al final tendrás cuántas veces se cumplió."
     },
     {

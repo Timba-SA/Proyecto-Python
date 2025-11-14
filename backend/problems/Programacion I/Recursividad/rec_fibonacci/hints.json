@@ -13,7 +13,7 @@
       "content": "El caso recursivo resuelve un problema grande usando la solución de uno más pequeño. Ejemplo: factorial(n) = n * factorial(n-1). Asegúrate de que cada llamada recursiva acerque al caso base."
     },
     {
-      "title": "📚 Ejemplo: Fibonacci",
+      "title": "📝 Ejemplo: Fibonacci",
       "content": "```python\ndef fibonacci(n):\n    if n == 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        return fibonacci(n-1) + fibonacci(n-2)\n```"
     },
     {

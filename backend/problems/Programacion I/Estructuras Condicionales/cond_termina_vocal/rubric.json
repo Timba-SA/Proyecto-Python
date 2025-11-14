@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "test_existe_funcion",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "name": "test_no_termina_vocal",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
@@ -37,12 +37,12 @@
     },
     {
       "name": "test_consonante_r",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     },
     {
       "name": "test_consonante_l",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     }
   ],

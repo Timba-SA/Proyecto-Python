@@ -5,7 +5,7 @@
       "content": "Recuerda que en un programa secuencial, las instrucciones se ejecutan una tras otra en orden. Primero lees datos con `input()`, luego procesas, y finalmente imprimes el resultado con `print()`."
     },
     {
-      "title": "📥 Lectura de datos",
+      "title": "🔥 Lectura de datos",
       "content": "Usa `input()` para leer texto y conviértelo al tipo apropiado: `int(input())` para enteros, `float(input())` para decimales. No imprimas mensajes de solicitud."
     },
     {

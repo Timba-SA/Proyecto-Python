@@ -2,22 +2,22 @@
   "tests": [
     {
       "name": "test_existe_funcion",
-      "points": 1,
-      "visibility": "public"
-    },
-    {
-      "name": "test_contacto_encontrado",
-      "points": 4,
-      "visibility": "public"
-    },
-    {
-      "name": "test_contacto_no_encontrado",
       "points": 3,
       "visibility": "public"
     },
     {
-      "name": "test_multiples_contactos",
+      "name": "test_contacto_encontrado",
       "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_contacto_no_encontrado",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_multiples_contactos",
+      "points": 3,
       "visibility": "hidden"
     }
   ],

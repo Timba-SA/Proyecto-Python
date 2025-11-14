@@ -5,7 +5,7 @@
       "content": "Python ofrece: listas `[]` (ordenadas, mutables), tuplas `()` (ordenadas, inmutables), diccionarios `{}` (pares clave-valor), y sets `{}` (únicos, sin orden). Elige la estructura apropiada."
     },
     {
-      "title": "📖 Trabajando con diccionarios",
+      "title": "ðŸ“– Trabajando con diccionarios",
       "content": "Diccionarios usan pares clave-valor: `d = {'nombre': 'Juan', 'edad': 25}`. Accede con `d['nombre']`. Agrega con `d['nueva'] = valor`. Itera con `for k, v in d.items():`."
     },
     {

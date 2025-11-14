@@ -11,7 +11,7 @@
   "memory_mb": 128,
   "hints": [
     "Lee la temperatura: celsius = float(input())",
-    "Fórmula de conversión: F = (C × 9/5) + 32",
+    "Fórmula de conversión: F = (C Á— 9/5) + 32",
     "Calcula: fahrenheit = (celsius * 9/5) + 32",
     "Imprime: print(fahrenheit)"
   ]

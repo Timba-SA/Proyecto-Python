@@ -32,7 +32,9 @@ Ver documentación en [CLAUDE.md](CLAUDE.md) para detalles completos.
 
 ### Para Estudiantes
 - 🎯 **Editor Interactivo**: Monaco Editor con resaltado de sintaxis
-- 📚 **Múltiples Problemas**: 31 ejercicios organizados jerárquicamente (8 materias)
+- 📚 **Múltiples Problemas**: 80+ ejercicios organizados jerárquicamente (8 materias)
+  - **Programación I**: 67 ejercicios completos (Secuenciales, Condicionales, Repetitivas, Listas, Funciones, Estructuras de Datos, Recursividad)
+  - **Otras materias**: 13+ ejercicios (Paradigmas, Backend, Frontend, Spring Boot)
 - 📊 **Navegación Intuitiva**: Sistema de 3 niveles (Materia → Unidad → Problema)
 - ✅ **Calificación en Tiempo Real**: Puntuación automática con tests públicos y ocultos
 - 📈 **Resultados Detallados**: Visualización de tests, mensajes de error y tiempos de ejecución
@@ -138,15 +140,17 @@ Frontend (React+TypeScript+Monaco) → Backend (FastAPI) → Redis (RQ Queue) �
 
 ### Problemas Organizados Jerárquicamente
 
-**3 Materias × 5 Unidades × Múltiples Problemas**
+**8 Materias × 40 Unidades × 80+ Problemas**
 
 ```
-📚 Programación 1
+📚 Programación 1 (67 ejercicios) ⭐ COMPLETO
   ├── 📖 Estructuras Secuenciales (10 problemas)
   ├── 📖 Estructuras Condicionales (9 problemas)
-  ├── 📖 Estructuras Repetitivas
-  ├── 📖 Listas
-  └── 📖 Funciones (1 problema)
+  ├── 📖 Estructuras Repetitivas (10 problemas)
+  ├── 📖 Listas (10 problemas)
+  ├── 📖 Funciones (10 problemas)
+  ├── 📖 Estructuras de Datos Complejas (10 problemas)
+  └── 📖 Recursividad (8 problemas)
 
 📚 Programación 2
   ├── 📖 POO Básico
@@ -155,15 +159,52 @@ Frontend (React+TypeScript+Monaco) → Backend (FastAPI) → Redis (RQ Queue) �
   ├── 📖 Archivos
   └── 📖 Estructuras de Datos
 
-📚 Algoritmos y Complejidad
+📚 Programación 3 (Spring Boot + Java)
+  ├── 📖 Fundamentos de Spring
+  ├── 📖 Spring Boot Básico
+  ├── 📖 Spring Web
+  ├── 📖 Spring Data JPA
+  └── 📖 Spring Security
+
+📚 Programación 4 (FastAPI + Python)
+  ├── 📖 Fundamentos de FastAPI
+  ├── 📖 Validación y Modelos
+  ├── 📖 Bases de Datos
+  ├── 📖 Seguridad
+  └── 📖 FastAPI Avanzado
+
+📚 Paradigmas de Programación
+  ├── 📖 Imperativo
+  ├── 📖 Orientado a Objetos (Java)
+  ├── 📖 Lógico (Prolog)
+  ├── 📖 Funcional (Haskell)
+  └── 📖 Comparación de Paradigmas
+
+📚 Algoritmos y Estructuras de Datos
+  ├── 📖 Estructuras Básicas
   ├── 📖 Ordenamiento
   ├── 📖 Búsqueda
-  ├── 📖 Recursión
-  ├── 📖 Complejidad
-  └── 📖 Programación Dinámica
+  ├── 📖 Pilas y Colas
+  └── 📖 Recursión
+
+📚 Desarrollo Frontend
+  ├── 📖 HTML Fundamentos
+  ├── 📖 CSS y Diseño
+  ├── 📖 JavaScript Básico
+  ├── 📖 JavaScript Avanzado
+  └── 📖 TypeScript
+
+📚 Desarrollo Backend
+  ├── 📖 Python Fundamentos
+  ├── 📖 FastAPI Básico
+  ├── 📖 Bases de Datos
+  ├── 📖 Autenticación
+  └── 📖 Deployment y Testing
 ```
 
-**Total actual**: 31+ problemas funcionales organizados en 8 materias
+**Total actual**: **80+ ejercicios funcionales** organizados en 8 materias
+
+📊 **Calidad**: Ver análisis completo en [INFORME_PROG1_COMPLETO.md](INFORME_PROG1_COMPLETO.md)
 
 ---
 
@@ -421,10 +462,25 @@ Ver ejemplo completo en: `backend/problems/sumatoria/`
 
 ## 📖 Documentación
 
-- **[CLAUDE.md](CLAUDE.md)** - Guía completa del proyecto para Claude Code
-- **[TESTING.md](TESTING.md)** - Guía de testing
-- **[REFACTORIZACION_TYPESCRIPT.md](REFACTORIZACION_TYPESCRIPT.md)** - Migración a TypeScript
-- **[HISTORIAS_USUARIO.md](HISTORIAS_USUARIO.md)** - Historias de usuario y casos de uso
+### Documentación Principal
+- **[README.md](README.md)** - Este archivo - Guía principal del proyecto
+- **[CLAUDE.md](CLAUDE.md)** - Guía completa para desarrollo con IA
+- **[TESTING.md](TESTING.md)** - Guía de testing y cobertura
+- **[HISTORIAS_USUARIO.md](HISTORIAS_USUARIO.md)** - Casos de uso y requisitos
+
+### Documentación Técnica
+- **[ANTI_PASTE_FEATURE.md](ANTI_PASTE_FEATURE.md)** - Sistema anti-paste
+- **[HINT_SYSTEM.md](HINT_SYSTEM.md)** - Sistema de pistas
+- **[LEGACY_FILES.md](LEGACY_FILES.md)** - Archivos legacy y migración
+- **[TRAZABILIDAD.md](TRAZABILIDAD.md)** - Trazabilidad de cambios
+
+### Informes y Análisis
+- **[INFORME_PROG1_COMPLETO.md](INFORME_PROG1_COMPLETO.md)** - Análisis completo de Programación I (67 ejercicios)
+- **[docs/informes-historicos/](docs/informes-historicos/)** - Informes históricos y refactorizaciones
+
+### Documentación de API
+- **Swagger UI**: http://localhost:8000/docs (cuando el servidor está corriendo)
+- **ReDoc**: http://localhost:8000/redoc (documentación alternativa)
 
 ---
 
@@ -511,4 +567,17 @@ Proyecto creado como MVP educativo para enseñanza de programación Python.
 
 **Hecho con ❤️ para la educación** 🚀
 
-**Última actualización**: 13 de Noviembre, 2025
+---
+
+## 📊 Estadísticas del Proyecto
+
+- **Ejercicios totales**: 80+
+- **Programación I**: 67 ejercicios (100% completos)
+- **Tests unitarios**: 86+
+- **Materias**: 8
+- **Cobertura de código**: >80%
+- **Calidad de código**: 8.2/10
+
+---
+
+**Última actualización**: 14 de Noviembre, 2025

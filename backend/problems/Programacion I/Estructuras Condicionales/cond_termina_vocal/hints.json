@@ -5,11 +5,11 @@
       "content": "Usa `if`, `elif` y `else` para tomar decisiones. La sintaxis es: `if condicion:` seguido de código indentado. Verifica que uses los operadores correctos: `==`, `!=`, `>`, `<`, `>=`, `<=`."
     },
     {
-      "title": "🎯 Casos borde",
+      "title": "ðŸŽ¯ Casos borde",
       "content": "Presta especial atención a los valores límite mencionados en los ejemplos. Asegúrate de que tu condición los maneje correctamente."
     },
     {
-      "title": "📝 Mensajes exactos",
+      "title": "ðŸ“ Mensajes exactos",
       "content": "Los mensajes de salida deben ser EXACTAMENTE como se especifican: mismas mayúsculas, minúsculas, espacios y puntuación. Copia el texto literal de los ejemplos."
     },
     {

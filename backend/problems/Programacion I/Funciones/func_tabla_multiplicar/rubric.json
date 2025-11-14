@@ -1,9 +1,25 @@
 {
   "tests": [
-    {"name": "test_existe_funcion", "points": 2, "visibility": "public"},
-    {"name": "test_tabla_del_5", "points": 3, "visibility": "public"},
-    {"name": "test_tabla_del_7", "points": 3, "visibility": "hidden"},
-    {"name": "test_formato_correcto", "points": 2, "visibility": "hidden"}
+    {
+      "name": "test_existe_funcion",
+      "points": 4,
+      "visibility": "public"
+    },
+    {
+      "name": "test_tabla_del_5",
+      "points": 3,
+      "visibility": "public"
+    },
+    {
+      "name": "test_tabla_del_7",
+      "points": 2,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_formato_correcto",
+      "points": 1,
+      "visibility": "hidden"
+    }
   ],
   "max_points": 10
 }

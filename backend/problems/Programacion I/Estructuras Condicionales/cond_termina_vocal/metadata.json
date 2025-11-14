@@ -12,7 +12,7 @@
   "memory_mb": 128,
   "hints": [
     "Lee la palabra: palabra = input()",
-    "Última letra: palabra[-1] (índice negativo desde el final)",
+    "Ášltima letra: palabra[-1] (índice negativo desde el final)",
     "Convierte a minúscula: palabra[-1].lower() para comparar",
     "Usa operador in: if ultima_letra in \"aeiou\""
   ]

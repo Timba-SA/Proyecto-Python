@@ -1,5 +1,5 @@
 {
-  "title": "Área y Perímetro del Círculo",
+  "title": "Area y Perímetro del Círculo",
   "subject_id": "programacion-1",
   "unit_id": "estructuras-secuenciales",
   "difficulty": "easy",
@@ -12,7 +12,7 @@
   "hints": [
     "Importa math al inicio: import math",
     "Lee el radio: radio = float(input())",
-    "Área = π × radio²: area = math.pi * radio ** 2",
-    "Perímetro = 2 × π × radio: perimetro = 2 * math.pi * radio"
+    "Área = π Á— radio²: area = math.pi * radio ** 2",
+    "Perímetro = 2 Á— π Á— radio: perimetro = 2 * math.pi * radio"
   ]
 }

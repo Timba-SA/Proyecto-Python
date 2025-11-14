@@ -2,17 +2,17 @@
   "tests": [
     {
       "name": "test_existe_funcion",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
       "name": "test_mayor_primero",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
       "name": "test_mayor_segundo",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "test_negativos_2",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "name": "test_decimales_2",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "name": "test_cero_2",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     }
   ],

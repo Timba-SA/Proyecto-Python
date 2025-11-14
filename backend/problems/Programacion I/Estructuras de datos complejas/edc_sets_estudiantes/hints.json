@@ -5,8 +5,8 @@
       "content": "Python ofrece: listas `[]` (ordenadas, mutables), tuplas `()` (ordenadas, inmutables), diccionarios `{}` (pares clave-valor), y sets `{}` (únicos, sin orden). Elige la estructura apropiada."
     },
     {
-      "title": "🔶 Sets (conjuntos)",
-      "content": "Sets no permiten duplicados y no tienen orden: `s = {1, 2, 3}`. Usa `s.add(x)` para agregar, `s.remove(x)` para quitar. Útiles para operaciones de conjuntos: unión, intersección, diferencia."
+      "title": "ðŸ”¶ Sets (conjuntos)",
+      "content": "Sets no permiten duplicados y no tienen orden: `s = {1, 2, 3}`. Usa `s.add(x)` para agregar, `s.remove(x)` para quitar. Áštiles para operaciones de conjuntos: unión, intersección, diferencia."
     },
     {
       "title": "🐛 Debugging",

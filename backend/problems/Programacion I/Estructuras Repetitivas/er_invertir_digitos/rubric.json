@@ -2,12 +2,12 @@
   "tests": [
     {
       "name": "test_existe_funcion",
-      "points": 2,
+      "points": 4,
       "visibility": "public"
     },
     {
       "name": "test_invertir_547",
-      "points": 4,
+      "points": 3,
       "visibility": "public"
     },
     {
@@ -17,7 +17,7 @@
     },
     {
       "name": "test_un_digito",
-      "points": 2,
+      "points": 1,
       "visibility": "hidden"
     }
   ],

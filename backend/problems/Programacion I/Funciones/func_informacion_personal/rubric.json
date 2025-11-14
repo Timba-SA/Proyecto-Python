@@ -1,10 +1,30 @@
 {
   "tests": [
-    {"name": "test_existe_funcion", "points": 2, "visibility": "public"},
-    {"name": "test_salida_correcta", "points": 4, "visibility": "public"},
-    {"name": "test_otro_caso", "points": 2, "visibility": "public"},
-    {"name": "test_cuatro_parametros", "points": 1, "visibility": "hidden"},
-    {"name": "test_formato_exacto", "points": 1, "visibility": "hidden"}
+    {
+      "name": "test_existe_funcion",
+      "points": 3,
+      "visibility": "public"
+    },
+    {
+      "name": "test_salida_correcta",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_otro_caso",
+      "points": 2,
+      "visibility": "public"
+    },
+    {
+      "name": "test_cuatro_parametros",
+      "points": 2,
+      "visibility": "hidden"
+    },
+    {
+      "name": "test_formato_exacto",
+      "points": 1,
+      "visibility": "hidden"
+    }
   ],
   "max_points": 10
 }

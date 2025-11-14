@@ -3,8 +3,17 @@
   "subject_id": "programacion-1",
   "unit_id": "listas",
   "difficulty": "easy",
-  "tags": ["listas", "filtrar", "comprension", "positivos"],
+  "tags": [
+    "listas",
+    "filtrar",
+    "comprension",
+    "positivos"
+  ],
   "timeout_sec": 3.0,
   "memory_mb": 128,
-  "hints": ["Usa una list comprehension o filter()", "Un número es positivo si n > 0", "Imprime los números separados por espacios"]
+  "hints": [
+    "Usa una list comprehension o filter()",
+    "Un número es positivo si n > 0",
+    "Imprime los números separados por espacios"
+  ]
 }

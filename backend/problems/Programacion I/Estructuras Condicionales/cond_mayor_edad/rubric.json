@@ -2,17 +2,17 @@
   "tests": [
     {
       "name": "test_existe_funcion",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
       "name": "test_mayor_edad_basico",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
       "name": "test_menor_edad_basico",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "name": "test_edad_limite_19",
-      "points": 1,
+      "points": 0,
       "visibility": "public"
     },
     {
@@ -42,12 +42,12 @@
     },
     {
       "name": "test_edad_17",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     },
     {
       "name": "test_edad_20",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     }
   ],

@@ -5,8 +5,8 @@
       "content": "Python ofrece: listas `[]` (ordenadas, mutables), tuplas `()` (ordenadas, inmutables), diccionarios `{}` (pares clave-valor), y sets `{}` (únicos, sin orden). Elige la estructura apropiada."
     },
     {
-      "title": "📌 Tuplas inmutables",
-      "content": "Las tuplas son como listas pero inmutables (no se pueden modificar): `t = (1, 2, 3)`. Útiles para agrupar datos relacionados que no deben cambiar."
+      "title": "ðŸ“Œ Tuplas inmutables",
+      "content": "Las tuplas son como listas pero inmutables (no se pueden modificar): `t = (1, 2, 3)`. Áštiles para agrupar datos relacionados que no deben cambiar."
     },
     {
       "title": "🐛 Debugging",

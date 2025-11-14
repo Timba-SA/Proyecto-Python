@@ -3,7 +3,12 @@
   "subject_id": "programacion-1",
   "unit_id": "funciones",
   "difficulty": "easy",
-  "tags": ["funciones", "parametros", "return", "strings"],
+  "tags": [
+    "funciones",
+    "parametros",
+    "return",
+    "strings"
+  ],
   "timeout_sec": 3.0,
   "memory_mb": 128,
   "hints": [

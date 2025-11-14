@@ -17,7 +17,7 @@
     },
     {
       "name": "test_radio_10",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "name": "test_precision_pi",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     }
   ],

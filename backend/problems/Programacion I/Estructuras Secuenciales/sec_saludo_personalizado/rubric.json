@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "test_existe_funcion",
-      "points": 2,
+      "points": 3,
       "visibility": "public"
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "name": "test_formato_exacto",
-      "points": 2,
+      "points": 1,
       "visibility": "hidden"
     }
   ],

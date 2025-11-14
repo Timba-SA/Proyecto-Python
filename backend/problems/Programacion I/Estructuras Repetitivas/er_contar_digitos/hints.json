@@ -5,7 +5,7 @@
       "content": "Python ofrece dos tipos de ciclos: `for` (cuando sabes cuántas iteraciones) y `while` (cuando la condición determina cuándo parar). Elige el más apropiado para tu problema."
     },
     {
-      "title": "🔢 Patrón contador",
+      "title": "ðŸ”¢ Patrón contador",
       "content": "Inicializa una variable en 0 antes del ciclo (ej: `contador = 0`). Cuando se cumple una condición, incrementa: `contador += 1`. Al final tendrás cuántas veces se cumplió."
     },
     {

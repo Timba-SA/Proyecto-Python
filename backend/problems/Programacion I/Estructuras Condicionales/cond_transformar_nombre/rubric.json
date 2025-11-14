@@ -2,17 +2,17 @@
   "tests": [
     {
       "name": "test_existe_funcion",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
       "name": "test_opcion_mayusculas",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
       "name": "test_opcion_minusculas",
-      "points": 1,
+      "points": 2,
       "visibility": "public"
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "name": "test_opcion_invalida",
-      "points": 1,
+      "points": 0,
       "visibility": "public"
     },
     {
@@ -42,12 +42,12 @@
     },
     {
       "name": "test_opcion_cero",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     },
     {
       "name": "test_opcion_negativa",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     }
   ],

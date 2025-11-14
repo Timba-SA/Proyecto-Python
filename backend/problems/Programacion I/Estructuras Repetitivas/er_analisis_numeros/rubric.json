@@ -2,13 +2,18 @@
   "tests": [
     {
       "name": "test_existe_funcion",
-      "points": 2,
+      "points": 4,
       "visibility": "public"
     },
     {
       "name": "test_analisis_10_numeros",
-      "points": 8,
+      "points": 3,
       "visibility": "public"
+    },
+    {
+      "name": "test_analisis_completo",
+      "points": 3,
+      "visibility": "hidden"
     }
   ],
   "max_points": 10

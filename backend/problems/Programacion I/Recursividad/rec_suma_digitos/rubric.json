@@ -7,12 +7,12 @@
     },
     {
       "name": "test_existe_funcion_suma_digitos",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_suma_digitos_es_recursiva",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
@@ -27,17 +27,17 @@
     },
     {
       "name": "test_suma_digitos_1234",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_suma_digitos_305",
-      "points": 2,
+      "points": 1,
       "visibility": "public"
     },
     {
       "name": "test_salida_completa",
-      "points": 2,
+      "points": 0,
       "visibility": "public"
     },
     {
@@ -57,9 +57,9 @@
     },
     {
       "name": "test_salida_completa_305",
-      "points": 1,
+      "points": 0,
       "visibility": "hidden"
     }
   ],
-  "max_points": 17
+  "max_points": 10
 }
